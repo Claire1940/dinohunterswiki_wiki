@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Dino Hunters Wiki - Codes, Dinos & Hunting Guides",
+  "short_name": "Dino Hunters",
+  "description": "Dino Hunters Wiki provides dinosaur hunting guides, codes, dinosaur tier lists, maps, weapon tips, upgrades and progression strategies to help players master the Roblox dinosaur hunting adventure.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#7BA630",
   "background_color": "#0a0a0a",
   "icons": [
     {

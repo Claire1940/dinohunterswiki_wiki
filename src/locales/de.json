@@ -1,11 +1,553 @@
 {
+  "seo": {
+    "home": {
+      "title": "Dino Hunters Wiki - Codes, Karten & Guides",
+      "description": "Dino Hunters Wiki bietet Guides für die Jagd auf Dinosaurs, Weapons, Karten, Upgrades, Codes und Progression-Tipps, um Spielern mit detaillierten Strategien zu helfen, das Spiel zu meistern.",
+      "keywords": "Dino Hunters, Roblox, Codes, Karten, Dinosaurs, Weapons, Upgrades, Guides",
+      "ogTitle": "Dino Hunters Wiki - Codes, Karten & Guides",
+      "ogDescription": "Dino Hunters Wiki bietet Guides für die Jagd auf Dinosaurs, Weapons, Karten, Upgrades, Codes und Progression-Tipps, um Spielern mit detaillierten Strategien zu helfen, das Spiel zu meistern.",
+      "twitterTitle": "Dino Hunters Wiki - Codes, Karten & Guides",
+      "twitterDescription": "Dino Hunters Wiki bietet Guides für die Jagd auf Dinosaurs, Weapons, Karten, Upgrades, Codes und Progression-Tipps."
+    }
+  },
   "nav": {
     "codes": "Codes",
     "guide": "Guide",
-    "dinosaurs": "Dinosaurier",
-    "weapons": "Waffen",
-    "progression": "Fortschritt",
+    "dinosaurs": "Dinosaurs",
+    "weapons": "Weapons",
+    "progression": "Progression",
     "downloads": "Downloads",
-    "mobile": "Mobil"
+    "mobile": "Mobile"
+  },
+  "pages": {
+    "codes": {
+      "title": "Dino Hunters Codes",
+      "description": "Aktuelle funktionierende Dino Hunters Codes für kostenlose Coins, Boosts und Belohnungs-Items. Löse aktive Codes ein, um dein Dinosaurs-Jagdabenteuer zu beschleunigen.",
+      "metaTitle": "Dino Hunters Codes - Kostenlose Coins & Belohnungen (täglich aktualisiert)",
+      "metaDescription": "Löse die neuesten funktionierenden Dino Hunters Codes für kostenlose Coins, Boosts und Items ein. Täglich aktualisiert mit verifizierten Codes für eine schnellere Dinosaurs-Jagd-Progression.",
+      "categoryLabel": "CODES EINLÖSEN",
+      "whatIs": "Was sind Dino Hunters Codes?",
+      "whatIsDescription": "Dino Hunters Codes sind kostenlose Einlösecodes, die von den Entwicklern veröffentlicht werden und Bonus-Coins, Boosts und hilfreiche Items gewähren. Neue Codes erscheinen bei Spiel-Updates und speziellen Events und geben jedem Spieler zusätzliche Ressourcen für die Jagd auf Dinosaurs, das Sammeln von Kreaturen und das Upgrade von Weapons.",
+      "why": "Warum Codes einlösen?",
+      "whySteps": {
+        "step1Title": "Kostenlose Coins & Währung",
+        "step1Description": "Codes gewähren Coins und Währung, die du für neue Dinosaurs, Weapons und Upgrades ausgeben kannst, ohne stundenlang Ressourcen farmen zu müssen.",
+        "step2Title": "Schnellere Progression",
+        "step2Description": "Boost-Codes beschleunigen das Jagen, Einfangen und Ressourcensammeln, sodass du im Spiel viel schneller vorankommst.",
+        "step3Title": "Exklusive Event-Belohnungen",
+        "step3Description": "Zeitlich begrenzte Event-Codes schalten spezielle Items und Boni frei, die mit saisonalen Dino Hunters-Updates verknüpft sind."
+      },
+      "featured": "Vorgestellt & Unverzichtbar",
+      "all": "Alle Codes"
+    },
+    "guide": {
+      "title": "Dino Hunters Guides",
+      "description": "Vollständige Dino Hunters Guides über Strategien für Anfänger, Jagdmechaniken, Bosskämpfe, Leveling, Geldverdienen und fortgeschrittene Gameplay-Tipps.",
+      "metaTitle": "Dino Hunters Guides - Tipps für Anfänger, Bosse & Progression",
+      "metaDescription": "Meistere Dino Hunters mit vollständigen Guides zu Anfängerstrategien, Jagdmechaniken, Bosskämpfen, schnellem Leveling und Geldverdienen, um das Spiel zu dominieren.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "Was sind Dino Hunters Guides?",
+      "whatIsDescription": "Dino Hunters Guides erklären jedes Kernsystem, von den ersten Schritten und Jagdbasics bis hin zu fortgeschrittenen Boss-Strategien und Routen zum Geldverdienen. Sie helfen Spielern, die Mechaniken zu verstehen und im Dinosaurs-Jagdabenteuer effizient voranzukommen.",
+      "why": "Warum die Guides lesen?",
+      "whySteps": {
+        "step1Title": "Lerne den Hunting-Loop",
+        "step1Description": "Guides erklären, wie man Dinosaurs findet, jagt und einfängt, damit du von Beginn deines Abenteuers an eine starke, ausgewogene Sammlung aufbaust.",
+        "step2Title": "Bosse & Herausforderungen besiegen",
+        "step2Description": "Detaillierte Anleitungen für Bosse und Herausforderungen zeigen dir, wie du die stärksten Dinosaurs mit dem richtigen Team und der richtigen Ausrüstung besiegst.",
+        "step3Title": "Schneller leveln & verdienen",
+        "step3Description": "Guides zum Leveln und Geldverdienen helfen dir, dein Team und deine Ressourcen zu vergrößern, ohne Zeit auf ineffizienten Routen zu verschwenden."
+      },
+      "featured": "Empfohlene Guides",
+      "all": "Alle Guides"
+    },
+    "dinosaurs": {
+      "title": "Dino Hunters Dinosaurs",
+      "description": "Vollständige Liste der Dino Hunters Dinosaurs mit Stats, Seltenheit, Spawn-Orten und den besten Dinosaurs zum Jagen, Sammeln und Upgraden.",
+      "metaTitle": "Dino Hunters Dinosaurs – Liste, Stats & die beste Auswahl",
+      "metaDescription": "Durchsuche alle Dino Hunters Dinosaurs mit Stats, Seltenheit und Spawn-Orten. Entdecke die besten Dinosaurs zum Jagen, Sammeln und Upgraden für dein Team.",
+      "categoryLabel": "DINOSAURS",
+      "whatIs": "Was sind Dino Hunters Dinosaurs?",
+      "whatIsDescription": "Dinosaurs sind das Herzstück von Dino Hunters. Jede Kreatur hat einzigartige Stats, Seltenheit und Spawn-Orte auf der Karte. Das Sammeln und Upgraden stärkerer Dinosaurs ist der Schlüssel, um schwierigere Jagden und mächtige Boss-Begegnungen zu meistern.",
+      "why": "Warum Dinosaurs erforschen?",
+      "whySteps": {
+        "step1Title": "Baue ein stärkeres Team auf",
+        "step1Description": "Die Stats und Seltenheit jedes Dinosaurs zu kennen, hilft dir dabei, die richtigen Kreaturen zum Fangen, Upgraden und Hinzufügen zu deinem Jagdteam auszuwählen.",
+        "step2Title": "Seltene & Legendäre jagen",
+        "step2Description": "Infos zu Spawns und Seltenheit weisen dir den Weg zu den stärksten Dinosaurs, sodass du gezielt Jagd auf die wertvollsten Fänge auf der Karte machen kannst.",
+        "step3Title": "Klüger upgraden",
+        "step3Description": "Zu wissen, in welche Dinosaurs es sich zu investieren lohnt, spart Upgrade-Materialien und maximiert die langfristige Stärke deines Teams."
+      },
+      "featured": "Empfohlene Dinosaurs",
+      "all": "Alle Dinosaurs"
+    },
+    "weapons": {
+      "title": "Dino Hunters Waffen",
+      "description": "Vollständige Liste der Dino Hunters Waffen und Jagdausrüstung mit Stats, Freischaltbedingungen und den besten Waffen für jede Dinosaurs-Jagd.",
+      "metaTitle": "Dino Hunters Waffen – Beste Waffen & Jagdausrüstung",
+      "metaDescription": "Finde die besten Dino Hunters Waffen und Jagdausrüstung. Vergleiche Schusswaffen, Freischaltbedingungen und Stats, um jede Dinosaurs-Jagd und jeden Bosskampf zu dominieren.",
+      "categoryLabel": "WAFFEN",
+      "whatIs": "Was sind Dino Hunters Waffen?",
+      "whatIsDescription": "Waffen und Jagdausrüstung bestimmen, wie effektiv du Dinosaurs besiegst. Jede Waffe hat einzigartigen Schaden, Reichweite und Freischaltbedingungen, und das Upgraden der richtigen Ausrüstung ist unerlässlich, um stärkere Dinosaurs und herausfordernde Bosse anzugehen.",
+      "why": "Warum Waffen upgraden?",
+      "whySteps": {
+        "step1Title": "Stärkere Dinosaurs jagen",
+        "step1Description": "Aufgewertete Waffen verursachen mehr Schaden, sodass du seltene und legendäre Dinosaurs besiegen kannst, denen eine schwächere Ausrüstung einfach nicht gewachsen ist.",
+        "step2Title": "Ausrüstung für Bosskämpfe",
+        "step2Description": "Stimme die richtigen Waffen und Ausrüstung auf jede Boss-Begegnung ab, um maximalen Schaden zu verursachen und den Kampf zu überleben.",
+        "step3Title": "Schadensausstoß maximieren",
+        "step3Description": "Upgrade-Pfade und Stats-Vergleiche helfen dir, den maximalen Schaden aus jeder hergestellten Waffe herauszuholen."
+      },
+      "featured": "Empfohlene Waffen",
+      "all": "Alle Waffen"
+    },
+    "progression": {
+      "title": "Dino Hunters Fortschritt",
+      "description": "Dino Hunters Fortschritts-Guides zu Farming, Upgrades, Belohnungen, Eggs und Geheimnissen, um schnell zu leveln und das stärkste Jagdteam aufzubauen.",
+      "metaTitle": "Dino Hunters Progression - Farmen, Upgrades & Belohnungen",
+      "metaDescription": "Steige in Dino Hunters schnell auf mit Progression-Guides zu Farmen, Upgrades, Belohnungen, Eggs und versteckten Geheimnissen für maximales Wachstum und Power.",
+      "categoryLabel": "PROGRESSION",
+      "whatIs": "Was ist Dino Hunters Progression?",
+      "whatIsDescription": "Progression umfasst alles, was deine Power steigert: das Farmen von Ressourcen, das Verbessern von Dinosaurs und Waffen, das Ausbrüten von Eggs und das Freischalten von Belohnungen. Ein kluger Progression-Plan hilft dir, stetig im Spiel voranzukommen, ohne Materialien zu verschwenden.",
+      "why": "Warum die Progression planen?",
+      "whySteps": {
+        "step1Title": "Ressourcen effizient farmen",
+        "step1Description": "Kluge Farming-Routen bescheren dir die Coins, Materialien und Upgrade-Gegenstände, die du benötigst, um deine Dinosaurs und Waffen viel schneller zu verstärken.",
+        "step2Title": "Eggs ausbrüten & upgraden",
+        "step2Description": "Guides für Eggs und Upgrades zeigen dir, welche Kreaturen du aufziehen und in welche du investieren solltest, um mit der Zeit den größten Power-Zuwachs zu erzielen.",
+        "step3Title": "Versteckte Belohnungen freischalten",
+        "step3Description": "Guides für Geheimnisse und Belohnungen enthüllen leicht zu übersehende Boni, die deine Progression kostenlos beschleunigen."
+      },
+      "featured": "Vorgestellte Progression",
+      "all": "Alle Progression"
+    },
+    "downloads": {
+      "title": "Dino Hunters Download",
+      "description": "Wie man Dino Hunters auf jeder Plattform herunterlädt und spielt, plus das neueste Veröffentlichungsdatum, die Version und Update-Informationen.",
+      "metaTitle": "Dino Hunters Download - Spiele auf PC, Mobile & Konsole",
+      "metaDescription": "Erfahre, wie du Dino Hunters auf jeder unterstützten Plattform herunterladen und spielen kannst, mit dem neuesten Veröffentlichungsdatum, der Version und Update-Details.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "Wie lädt man Dino Hunters herunter?",
+      "whatIsDescription": "Dino Hunters ist auf mehreren Plattformen verfügbar. Diese Guides erklären genau, wo du das Spiel herunterladen kannst, was jede Plattform bietet und wie du in wenigen Minuten auf deinem bevorzugten Gerät mit Dino Hunters beginnst.",
+      "why": "Warum Download-Infos prüfen?",
+      "whySteps": {
+        "step1Title": "Wähle deine Plattform",
+        "step1Description": "Vergleiche unterstützte Plattformen und wähle den besten Weg, Dino Hunters zu spielen, egal ob auf dem PC, Mobile oder anderen Geräten.",
+        "step2Title": "Bleib auf dem Laufenden",
+        "step2Description": "Informationen zu Veröffentlichungsdatum und Version halten dich auf dem neuesten Stand mit den neuesten Dinosaurs, Waffen und Features.",
+        "step3Title": "Schnell anfangen zu spielen",
+        "step3Description": "Schritt-für-Schritt-Download-Anleitungen bringen dich schnell und ohne Setup-Verwirrung in Dino Hunters rein."
+      },
+      "featured": "Vorgestellte Downloads",
+      "all": "Alle Downloads"
+    },
+    "mobile": {
+      "title": "Dino Hunters Mobile",
+      "description": "Dino Hunters Mobile-Guides für Android und iOS, einschließlich Steuerung, Performance-Tipps und den besten mobilen Gameplay-Einstellungen.",
+      "metaTitle": "Dino Hunters Mobile - Android & iOS Guide",
+      "metaDescription": "Spiele Dino Hunters auf Android und iOS mit Mobile-Guides zu Steuerung, Performance-Optimierung, Einstellungen und den besten mobilen Jagd-Tipps.",
+      "categoryLabel": "MOBILE",
+      "whatIs": "Gibt es Dino Hunters für Mobile?",
+      "whatIsDescription": "Dino Hunters kann auf mobilen Geräten gespielt werden. Diese Guides behandeln die mobile Steuerung, Performance-Optimierung und empfohlene Einstellungen, damit du Dinosaurs überall reibungslos auf Android und iOS jagen kannst.",
+      "why": "Warum auf Mobile spielen?",
+      "whySteps": {
+        "step1Title": "Überall spielen",
+        "step1Description": "Mit Mobile kannst du direkt in Dino Hunters einsteigen und Dinosaurs auch unterwegs jagen, ohne an einen Desktop-PC oder ein Konsolen-Setup gebunden zu sein.",
+        "step2Title": "Performance optimieren",
+        "step2Description": "Performance- und Einstellungs-Guides helfen dabei, dass Dino Hunters flüssig auf deinem Handy läuft, mit minimalem Lag während der Jagden.",
+        "step3Title": "Mobile Steuerung meistern",
+        "step3Description": "Steuerungs-Tipps lehren dich, wie du Dinosaurs mit Touchscreen-Eingaben präzise jagst, zielst und fängst."
+      },
+      "featured": "Empfohlen für Mobile",
+      "all": "Alles für Mobile"
+    }
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Roblox spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Theme wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Mehr lesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "Dinosaurs-Jagd-Abenteuerspiel",
+    "title": "Dino Hunters Wiki",
+    "description": "Das Dino Hunters Wiki bietet Jagd-Guides für Dinosaurs, Waffen-Tipps, Karten, Upgrades, Progressionsstrategien und Überlebensinformationen, um Spielern zu helfen, das ultimative Dinosaurs-Abenteuer zu meistern.",
+    "getFreeCodesCTA": "Kostenlose Codes erhalten",
+    "playOnRobloxCTA": "Auf Roblox spielen",
+    "stats": {
+      "stat1": {
+        "value": "10 Mio.+",
+        "label": "Besuche insgesamt"
+      },
+      "stat2": {
+        "value": "30+",
+        "label": "Dinosaurs zum Jagen"
+      },
+      "stat3": {
+        "value": "8",
+        "label": "Vollständige Guides"
+      },
+      "stat4": {
+        "value": "2024",
+        "label": "Startjahr"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Dino Hunters Gameplay",
+    "description": "Jage Dinosaurs, sammle Ressourcen, verbessere Waffen und erkunde die Karte in diesem Roblox Dinosaurs-Jagd-Abenteuer."
+  },
+  "tools": {
+    "title": "Dino Hunters",
+    "titleHighlight": "Ressourcen",
+    "subtitle": "Alles, was du brauchst, um Dinosaurs zu jagen, Codes einzulösen und die Dino Hunters Progression zu meistern",
+    "cards": [
+      {
+        "icon": "Geschenk",
+        "title": "Dino Hunters Codes",
+        "description": "Codes für kostenlose Belohnungen und Boni einlösen"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Anfänger-Guide",
+        "description": "Erste Schritte, Steuerung und früher Fortschritt"
+      },
+      {
+        "icon": "Trophäe",
+        "title": "Dinosaur Tier List",
+        "description": "Bewerte Dinosaurs nach Stärke und Wert"
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Dinosaurs-Guide",
+        "description": "Sammlung, Seltenheit und Evolutionspfade"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Gameplay-Guide",
+        "description": "Jagd-Loop, Kämpfe und Erkundung"
+      },
+      {
+        "icon": "Hantel",
+        "title": "Upgrade-Guide",
+        "description": "Verstärke Dinosaurs und Waffen effizient"
+      },
+      {
+        "icon": "Glühbirne",
+        "title": "Tipps und Tricks",
+        "description": "Strategien für schnelleren Fortschritt"
+      },
+      {
+        "icon": "Uhr",
+        "title": "Updates-Guide",
+        "description": "Neue Dinosaurs, Events und Änderungen"
+      }
+    ]
+  },
+  "modules": {
+    "dinoHuntersCodes": {
+      "title": "Dino Hunters Codes",
+      "eyebrow": "KOSTENLOSE BELOHNUNGEN",
+      "subtitle": "Finde aktive Codes und erfahre, wie du Belohnungen in Dino Hunters einlösen kannst.",
+      "intro": "Dino Hunters Codes schalten kostenlose Belohnungen frei, die beim Sammeln von Dinosaurs, bei Waffen-Upgrades und beim frühen Fortschritt helfen. Neue Codes werden durch offizielle Spiel-Updates und Community-Events hinzugefügt, schaue also regelmäßig vorbei, um dir jeden Bonus zu sichern.",
+      "rewards": [
+        {
+          "name": "Coins & Währung",
+          "description": "Codes gewähren oft Coins und In-Game-Währung, die verwendet werden, um Dinosaurs, Waffen und Upgrades in Dino Hunters freizuschalten."
+        },
+        {
+          "name": "Boost-Tränke",
+          "description": "Löse Codes für Boosts ein, die das Jagen, Fangen und Ressourcensammeln auf der Karte beschleunigen."
+        },
+        {
+          "name": "Ressourcen-Packs",
+          "description": "Kostenlose Ressourcenpakete helfen dir, Ausrüstung herzustellen und zu verbessern, ohne stundenlang Materialien farmen zu müssen."
+        },
+        {
+          "name": "Event-Items",
+          "description": "Zeitlich begrenzte Event-Codes bieten exklusive Gegenstände und Belohnungen, die mit saisonalen Updates von Dino Hunters verknüpft sind."
+        }
+      ],
+      "redeemSteps": [
+        {
+          "title": "Öffne Dino Hunters auf Roblox",
+          "description": "Starte das Spiel von der offiziellen Roblox-Seite und betrete die Hauptwelt."
+        },
+        {
+          "title": "Finde das Code-Einlösungsmenü",
+          "description": "Öffne das Einstellungs- oder Geschenkcode-Menü, das normalerweise mit einem Codes- oder Twitter-Symbol auf dem Bildschirm gekennzeichnet ist."
+        },
+        {
+          "title": "Gib deinen Code ein und bestätige ihn",
+          "description": "Gib den Code genau wie angezeigt ein und bestätige ihn dann, um sofort deine kostenlosen Belohnungen zu erhalten."
+        }
+      ]
+    },
+    "dinoHuntersBeginnerGuide": {
+      "title": "Dino Hunters Anfänger-Guide",
+      "eyebrow": "HIER STARTEN",
+      "subtitle": "Lerne den grundlegenden Gameplay-Loop, den Prozess der Dinosaurs-Jagd und Tipps für den frühen Spielfortschritt kennen.",
+      "intro": "Neue Spieler können diesen Guide nutzen, um die Hauptaktivitäten in Dino Hunters zu verstehen, von der Suche nach Dinosaurs bis zum Aufbau einer stärkeren Sammlung. Folge dem Fortschrittspfad, um dich effizient zu verbessern.",
+      "steps": [
+        {
+          "title": "Starte deine Dinosaurs-Jagd",
+          "description": "Erkunde die Spielwelt und beginne in verschiedenen Kartenregionen nach Dinosaurs zu suchen, um sie zu sammeln und zu trainieren."
+        },
+        {
+          "title": "Dinosaurs fangen",
+          "description": "Erfahre, wie du Dinosaurs erhältst und deine Sammlung mit neuen Kreaturen unterschiedlicher Seltenheit und Stärke erweiterst."
+        },
+        {
+          "title": "Trainieren und Upgraden",
+          "description": "Verbessere deine Dinosaurs und erhöhe ihre Stärke für besseren Fortschritt und schwierigere Jagden."
+        },
+        {
+          "title": "Baue dein Team auf",
+          "description": "Wähle stärkere Dinosaurs und erstelle eine ausgewogene Sammlung, die bereit für zukünftige Herausforderungen und Boss-Begegnungen ist."
+        }
+      ],
+      "quickTips": [
+        "Konzentriere dich darauf, ein paar zuverlässige Dinosaurs zu fangen, bevor du seltene jagst.",
+        "Gib frühe Ressourcen für Upgrades aus, die deinen Jagd-Loop beschleunigen.",
+        "Erkunde neue Kartenregionen, um stärkere Dinosaurs und bessere Ressourcen zu entdecken.",
+        "Behalte ein ausgewogenes Team, damit du mit verschiedenen Arten von Begegnungen fertig wirst."
+      ]
+    },
+    "dinoHuntersDinosaurTierList": {
+      "title": "Dino Hunters Dinosaurs Tier List",
+      "eyebrow": "RANKINGS",
+      "subtitle": "Vergleiche die Stärke, Seltenheit und den Upgrade-Wert von Dinosaurs, um die besten Kreaturen auszuwählen.",
+      "intro": "Diese Tier List hilft Spielern zu verstehen, welche Dinosaurs den besten Wert für die Sammlung und den Fortschritt in Dino Hunters bieten. Die Rankings konzentrieren sich auf die allgemeine Nützlichkeit, Seltenheit und das Investitionspotenzial.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Top Tier",
+          "description": "Hochwertige Dinosaurs mit dem höchsten Gesamtpotenzial und der stärksten Leistung in jeder Phase von Dino Hunters."
+        },
+        {
+          "tier": "A",
+          "label": "Stark",
+          "description": "Starke Dinosaurs, die in allen Fortschrittsphasen gut abschneiden und ein zuverlässiges Kernteam bilden."
+        },
+        {
+          "tier": "B",
+          "label": "Solide",
+          "description": "Nützliche Dinosaurs, die den Fortschritt im Early- und Mid-Game unterstützen können, bevor du stärkere Optionen freischaltest."
+        },
+        {
+          "tier": "C",
+          "label": "Nische",
+          "description": "Dinosaurs mit niedrigerer Priorität, die hauptsächlich für die Sammlung und das Ausfüllen spezifischer Teamrollen nützlich sind."
+        }
+      ]
+    },
+    "dinoHuntersDinosaursGuide": {
+      "title": "Dino Hunters Dinosaurs Guide",
+      "eyebrow": "SAMMLUNG",
+      "subtitle": "Erkunde die Dinosaurs-Sammelsysteme, Seltenheitskategorien und Fortschrittspfade.",
+      "intro": "Dieser Guide behandelt das Sammeln von Dinosaurs, den Seltenheitsfortschritt und Möglichkeiten, deine Kreaturen in Dino Hunters zu verbessern. Spieler können ihn nutzen, um zu verstehen, wie Dinosaurs zur Gesamtstärke ihres Teams beitragen.",
+      "items": [
+        {
+          "name": "Dinosaurs-Sammlung",
+          "rarity": "Kernsystem",
+          "description": "Sammle verschiedene Dinosaurs auf der Karte und verbessere dein Team, während du in Dino Hunters vorankommst."
+        },
+        {
+          "name": "Gewöhnliche Dinosaurs",
+          "rarity": "Gewöhnlich",
+          "description": "Leicht zu findende Dinosaurier, die das Rückgrat deines frühen Teams bilden und dir helfen, den Jagd-Rhythmus zu erlernen."
+        },
+        {
+          "name": "Seltene Dinosaurier",
+          "rarity": "Selten",
+          "description": "Stärkere Dinosaurier, deren Fang mehr Mühe erfordert, die deinem Team jedoch einen deutlichen Kraftschub verleihen."
+        },
+        {
+          "name": "Legendäre Dinosaurier",
+          "rarity": "Legendär",
+          "description": "Dinosaurier der Spitzenklasse mit dem höchsten Potenzial, die meist an fortgeschrittene Jagden und besondere Begegnungen gebunden sind."
+        },
+        {
+          "name": "Dinosaurier-Upgrades",
+          "rarity": "Stärkenwachstum",
+          "description": "Werte deine gesammelten Dinosaurier auf, um ihre Kampfkraft zu steigern und eine bessere Jagdleistung freizuschalten."
+        },
+        {
+          "name": "Dinosaurier-Evolution",
+          "rarity": "Fortgeschrittener Pfad",
+          "description": "Entwickle stärkere Kreaturen durch die verfügbaren Fortschrittssysteme und entwickle dein Team im Laufe der Zeit weiter."
+        }
+      ]
+    },
+    "dinoHuntersGameplayGuide": {
+      "title": "Dino Hunters Gameplay-Guide",
+      "eyebrow": "GAMEPLAY-GUIDE",
+      "subtitle": "Lerne den grundlegenden Jagd-Rhythmus, Dinosaurier-Kämpfe, Erkundungssysteme und Strategien zur Teambildung kennen.",
+      "intro": "Dino Hunters konzentriert sich auf das Entdecken von Dinosauriern, das Fangen von Kreaturen, das Verbessern deiner Sammlung und den Aufbau eines stärkeren Teams. Das Verständnis des Jagdzyklus, der Kampfmechaniken und der Fortschrittssysteme hilft Spielern, effizienter voranzukommen.",
+      "items": [
+        {
+          "title": "Dinosaurier-Jagd",
+          "description": "Erkunde die Spielwelt, suche nach Dinosauriern und fange neue Kreaturen, um deine Sammlung zu erweitern."
+        },
+        {
+          "title": "Dinosaurier-Kämpfe",
+          "description": "Setze gesammelte Dinosaurier in Kämpfen ein und verbessere deine Teamzusammensetzung, um stärkere Gegner zu bewältigen."
+        },
+        {
+          "title": "Teambildung",
+          "description": "Erstelle ausgewogene Dinosaurier-Teams, indem du verschiedene Kreaturen kombinierst und dich auf ihre Stärken konzentrierst."
+        },
+        {
+          "title": "Welterkundung",
+          "description": "Reise durch verschiedene Gebiete, entdecke neue Dinosaurier und schreite in deinem Jagdabenteuer voran."
+        },
+        {
+          "title": "Ressourcenmanagement",
+          "description": "Sammle Ressourcen durch Spielaktivitäten und nutze sie, um deine Dinosaurier und Waffen zu stärken."
+        }
+      ]
+    },
+    "dinoHuntersUpgradeGuide": {
+      "title": "Dino Hunters Upgrade-Guide",
+      "eyebrow": "UPGRADE-GUIDE",
+      "subtitle": "Folge dem besten Fortschrittspfad, um die Kraft deiner Dinosaurier zu steigern und die Jagdleistung zu verbessern.",
+      "intro": "Das Aufrüsten von Dinosauriern ist ein zentraler Bestandteil des Fortschritts in Dino Hunters. Konzentriere dich darauf, deine stärksten Kreaturen zu verbessern, Ressourcen sorgfältig zu verwalten und mit der Zeit ein besseres Kampfpotenzial freizuschalten.",
+      "steps": [
+        {
+          "title": "Sammle starke Dinosaurier",
+          "description": "Baue zuerst deine Sammlung auf und konzentriere deine Ressourcen auf Dinosaurier, die für deinen aktuellen Fortschritt den besten Wert bieten."
+        },
+        {
+          "title": "Werte Kern-Dinosaurier auf",
+          "description": "Investiere Upgrade-Materialien in dein Haupt-Kampfteam, anstatt deine Ressourcen auf jeden Dinosaurier zu verteilen."
+        },
+        {
+          "title": "Verbessere die Kampfkraft",
+          "description": "Nutze aufgewertete Dinosaurier, um stärkere Feinde zu besiegen und Zugang zu weiteren Fortschrittsmöglichkeiten auf der Karte zu erhalten."
+        },
+        {
+          "title": "Optimiere Ressourcen",
+          "description": "Finde ein Gleichgewicht bei den Ausgaben zwischen Upgrades, dem Ausbau der Sammlung und zukünftigen Dinosaurier-Verbesserungen für stetigen langfristigen Fortschritt."
+        }
+      ]
+    },
+    "dinoHuntersTipsAndTricks": {
+      "title": "Dino Hunters Tipps und Tricks",
+      "eyebrow": "TIPPS & TRICKS",
+      "subtitle": "Nützliche Strategien zur Verbesserung der Jagdeffizienz, der Farming-Geschwindigkeit und des Dinosaurier-Wachstums.",
+      "intro": "Kluge Ressourcennutzung und effiziente Jagdgewohnheiten können den Fortschritt in Dino Hunters erheblich verbessern. Diese Tipps helfen Spielern, häufige Fehler zu vermeiden und schneller stärkere Dinosaurier-Teams aufzubauen.",
+      "items": [
+        {
+          "question": "Wie starte ich stark in Dino Hunters?",
+          "answer": "Konzentriere dich zuerst darauf, ein zuverlässiges Hauptteam aufzubauen. Priorisiere die Verbesserung einer verlässlichen Gruppe von Dinosauriern, anstatt jede Kreatur gleichermaßen aufzuwerten, damit dein Kernteam in jeder Phase stark bleibt."
+        },
+        {
+          "question": "Welche Dinosaurier sollte ich in Dino Hunters zuerst fangen?",
+          "answer": "Fange regelmäßig neue Dinosaurier, um deine Sammlung zu erweitern und stärkere Optionen zu entdecken. Eine größere Auswahl bietet dir bessere Teamoptionen und mehr Flexibilität für verschiedene Arten von Begegnungen."
+        },
+        {
+          "question": "Wie sollte ich Ressourcen in Dino Hunters ausgeben?",
+          "answer": "Spare wichtige Upgrade-Ressourcen für Dinosaurier auf, die während des gesamten Fortschritts nützlich bleiben. Ausgaben für dein Kernteam bringen langfristig viel bessere Ergebnisse, als Materialien überall zu verteilen."
+        },
+        {
+          "question": "Wie gewinne ich Kämpfe in Dino Hunters?",
+          "answer": "Lerne die Bewegungsmuster der Gegner kennen und verbessere deine Dinosaurier-Auswahl, bevor du dich schwierigeren Begegnungen stellst. Ein ausgewogenes, verbessertes Team bewältigt Kämpfe weitaus zuverlässiger, als unvorbereitet in Kämpfe zu stürzen."
+        },
+        {
+          "question": "Wo finde ich neue Dinosaurier in Dino Hunters?",
+          "answer": "Erkunde weiterhin neue Gebiete der Karte, um zusätzliche Jagdmöglichkeiten und Fortschrittsbelohnungen zu entdecken. In verschiedenen Regionen spawnen unterschiedliche Dinosaurier, sodass Erkundung deine Sammlung direkt vergrößert."
+        }
+      ]
+    },
+    "dinoHuntersUpdatesGuide": {
+      "title": "Dino Hunters Update-Guide",
+      "eyebrow": "UPDATES",
+      "subtitle": "Verfolge neue Dinosaurier, Gameplay-Verbesserungen, Events und wichtige Änderungen.",
+      "intro": "Der Dino Hunters Update-Guide hält Spieler über neue Inhaltserweiterungen und Gameplay-Änderungen auf dem Laufenden. Sieh dir diesen Bereich an, um schnell zu verstehen, was sich geändert hat und welche neuen Features verfügbar sind.",
+      "items": [
+        {
+          "update": "Neue Dinosaurier-Inhalte",
+          "category": "Inhalte",
+          "description": "Neue Dinosaurier-Ergänzungen erweitern das Sammelsystem und bieten mehr Optionen für den Teambau in Dino Hunters."
+        },
+        {
+          "update": "Gameplay-Verbesserungen",
+          "category": "Balance",
+          "description": "Gameplay-Anpassungen verbessern das gesamte Jagd- und Kampferlebnis in jeder Phase des Spiels."
+        },
+        {
+          "update": "Spezial-Events",
+          "category": "Events",
+          "description": "Zeitlich begrenzte Aktivitäten bieten zusätzliche Fortschrittsmöglichkeiten, exklusive Belohnungen und kostenlose Codes."
+        },
+        {
+          "update": "Systemänderungen",
+          "category": "Updates",
+          "description": "Neue Features und Quality-of-Life-Verbesserungen verbessern das Dino Hunters-Erlebnis im Laufe der Zeit immer weiter."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Alles, was du über Dino Hunters wissen musst",
+    "questions": [
+      {
+        "question": "Was ist Dino Hunters?",
+        "answer": "Dino Hunters ist ein Roblox-Dinosaurierjagdspiel, bei dem Spieler Dinosaurier jagen, Ressourcen sammeln, Waffen verbessern und die Karte erkunden, während sie größere Dinosaurier-Ziele herausfordern."
+      },
+      {
+        "question": "Wo kann ich Dino Hunters spielen?",
+        "answer": "Du kannst Dino Hunters direkt auf Roblox über die offizielle Spielseite auf dem PC, Mobilgeräten und anderen unterstützten Roblox-Plattformen spielen."
+      },
+      {
+        "question": "Wie löse ich Codes in Dino Hunters ein?",
+        "answer": "Öffne Dino Hunters auf Roblox, finde das Menü zum Einlösen von Codes im Spiel, gib deinen Code genau wie angegeben ein und bestätige, um sofort kostenlose Belohnungen zu erhalten."
+      },
+      {
+        "question": "Was sind die besten Dinosaurier in Dino Hunters?",
+        "answer": "Die besten Dinosaurier in Dino Hunters sind in unserer Dinosaurier-Tier List nach Stärke, Seltenheit und Upgrade-Wert aufgelistet, was dir bei der Entscheidung hilft, welche Kreaturen es wert sind, gesammelt und mit Ressourcen aufgewertet zu werden."
+      },
+      {
+        "question": "Wie kann ich Dinosaurs in Dino Hunters upgraden?",
+        "answer": "Nutze das In-Game-Upgrade-System, um Materialien in deine Kern-Dinosaurs zu investieren. Konzentriere dich auf ein Haupt-Kampfteam, anstatt Ressourcen auf jede Kreatur zu verteilen, um den besten langfristigen Fortschritt zu erzielen."
+      },
+      {
+        "question": "Ist Dino Hunters kostenlos spielbar?",
+        "answer": "Ja. Dino Hunters ist auf Roblox kostenlos spielbar, mit optionalen In-Game-Käufen und kostenlosen Codes, die hilfreiche Belohnungen für den Fortschritt bieten."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Dinosaurs in Dino Hunters zu jagen?",
+    "description": "Steige ein in Dino Hunters auf Roblox und starte noch heute dein Dinosaurs-Jagdabenteuer!",
+    "joinCommunity": "Spiele auf Roblox",
+    "joinGame": "Besuche Roblox"
+  },
+  "footer": {
+    "title": "Dino Hunters Wiki",
+    "description": "Dein komplettes Ressourcen-Hub für Dino Hunters Codes, Dinosaurs, Waffen, Karten, Upgrades und Jagd-Guides.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "discord": "Spiele auf Roblox",
+    "twitter": "Roblox",
+    "steamCommunity": "Roblox-News",
+    "steamStore": "Roblox Corp",
+    "about": "Über",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Dino Hunters Wiki. Nicht verbunden mit den Entwicklern von Dino Hunters oder der Roblox Corporation.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
   }
 }

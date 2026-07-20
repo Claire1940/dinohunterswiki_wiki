@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: 'About Dino Hunters Wiki - Your Ultimate Roblox Game Resource',
-    description: 'Learn about Dino Hunters Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Dino Hunters Roblox game.',
+    description: 'Learn about Dino Hunters Wiki, a community-driven resource hub providing codes, dinosaur guides, weapon tips, progression strategies, and mobile guides for the Dino Hunters Roblox game.',
     robots: {
       index: false,
       follow: true,
@@ -74,8 +74,8 @@ export default function About() {
             <h2>Welcome to Dino Hunters Wiki</h2>
             <p>
               Dino Hunters Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the Roblox game "Dino Hunters". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              master the Roblox game "Dino Hunters". We are a community-driven platform that provides working codes,
+              dinosaur guides, weapon tips, progression strategies, and mobile guides to enhance your dinosaur hunting adventure.
             </p>
             <p>
               Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
@@ -95,8 +95,8 @@ export default function About() {
               and powerful tools</strong> that help them succeed in the game. We strive to:
             </p>
             <ul>
-              <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
-              <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
+              <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new dinosaurs, and balance updates</li>
+              <li><strong>Build useful guides:</strong> Develop clear walkthroughs, tier lists, and progression planners that help players make informed decisions</li>
               <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
               <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>
             </ul>
@@ -105,7 +105,7 @@ export default function About() {
             <p>
               We envision Dino Hunters Wiki as the <strong>go-to destination</strong> for every Dino Hunters player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              the latest codes, want to study dinosaur stats, or are looking for advanced hunting and progression tactics.
             </p>
           </div>
         </div>
@@ -118,51 +118,46 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <div className="text-2xl mb-3">🎁</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Codes & Rewards</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and weapon upgrade guides to help you craft powerful gear.
-                Master the art of item synthesis!
+                Daily updated Dino Hunters codes for free coins, boosts, and items to speed up your dinosaur hunting adventure.
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <div className="text-2xl mb-3">📖</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Game Guides</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the prehistoric world safely.
+                Complete guides covering beginner strategy, hunting mechanics, boss fights, leveling, and money making.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <div className="text-2xl mb-3">🦖</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Dinosaur Database</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                Full dinosaur list with stats, rarity, and spawn locations. Discover the best dinosaurs to hunt, collect, and upgrade.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <div className="text-2xl mb-3">⚔️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Weapons & Gear</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all achievements in the game.
-                Complete your collection with our detailed walkthroughs.
+                Weapon and hunting gear breakdowns with stats, unlock requirements, and the best loadouts for every hunt.
               </p>
             </div>
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <div className="text-2xl mb-3">📈</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Progression Tips</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the prehistoric hunting grounds.
+                Farming routes, upgrade paths, eggs, and hidden rewards to help you level up fast and build the strongest team.
               </p>
             </div>
 
@@ -171,8 +166,7 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
+                Content available in multiple languages including English, Spanish, Portuguese, and German.
               </p>
             </div>
           </div>
@@ -195,7 +189,7 @@ export default function About() {
               <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
+              <strong>Want to contribute?</strong> Whether you've discovered a new code, found a rare dinosaur spawn,
               or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
             </p>
           </div>

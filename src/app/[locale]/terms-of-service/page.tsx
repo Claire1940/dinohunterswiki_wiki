@@ -90,11 +90,11 @@ export default function TermsOfService() {
               and resources related to the Roblox game "Dino Hunters". Our services include, but are not limited to:
             </p>
             <ul>
-              <li>Game guides and survival strategies</li>
-              <li>Crafting and weapon upgrade guides</li>
-              <li>Biome and world region information</li>
-              <li>Creature and enemy guides</li>
-              <li>Achievement walkthroughs</li>
+              <li>Game guides and hunting strategies</li>
+              <li>Weapon and hunting gear guides</li>
+              <li>Dinosaur stats, rarity, and spawn information</li>
+              <li>Progression, farming, and upgrade tips</li>
+              <li>Working codes and reward updates</li>
               <li>Community discussion and content</li>
             </ul>
             <p>

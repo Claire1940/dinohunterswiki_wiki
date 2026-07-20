@@ -38,6 +38,29 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // Dino Hunters 主题图标（Codes / 排行 / 恐龙 / 升级 / 技巧 / 更新）
+  Gift: LucideIcons.Gift,
+  Trophy: LucideIcons.Trophy,
+  PawPrint: LucideIcons.PawPrint,
+  Dumbbell: LucideIcons.Dumbbell,
+  Lightbulb: LucideIcons.Lightbulb,
+  Map: LucideIcons.Map,
+  Target: LucideIcons.Target,
+  Flame: LucideIcons.Flame,
+  Dna: LucideIcons.Dna,
+  Bone: LucideIcons.Bone,
+  Compass: LucideIcons.Compass,
+  Swords: LucideIcons.Swords,
+  Egg: LucideIcons.Egg,
+  Skull: LucideIcons.Skull,
+  Crown: LucideIcons.Crown,
+  Zap: LucideIcons.Zap,
+  Rocket: LucideIcons.Rocket,
+  Crosshair: LucideIcons.Crosshair,
+  Footprints: LucideIcons.Footprints,
+  Wrench: LucideIcons.Wrench,
+  Play: LucideIcons.Play,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }

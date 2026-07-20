@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia do Dino Hunters: Progressão e Ranking de Armas 2026",
+  description: "Domine a vida selvagem com nosso guia do Dino Hunters. Aprenda os rankings de dinossauros de alto nível, caminhos de melhoria de armas e estratégias avançadas de caça para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a2e1a/fff?text=Dino+Hunters+Progression+Guide",
+  date: "2026-07-20",
+  author: "Equipe da Wiki do Dino Hunters",
+  keywords: "dino hunters, guia de progressão, armas, dinossauros, estratégias de caça"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **guia do dino hunters**: Foque no ciclo principal de rastrear, capturar e melhorar seu elenco de dinossauros.
+- **Prioridade de Armas**: Invista recursos iniciais em rifles de longo alcance para minimizar o dano recebido durante as caçadas.
+- **Tiers de Dinossauros**: Priorize dinossauros Lendários de Tier S para confrontos com chefes e exploração de mapas de alto nível.
+- **Gerenciamento de Recursos**: Economize materiais de melhoria raros para evoluções de fim de jogo, em vez de gastá-los em criaturas comuns de início de jogo.
+- **Recompensas Diárias**: Verifique o centro de resgate diariamente para códigos ativos para aumentar seus ganhos de ouro e experiência.
+</Callout>
+
+<Section icon={Map} title="Guia do Dino Hunters: Primeiros Passos na Natureza Selvagem">
+
+Entrar no mundo pré-histórico exige uma compreensão sólida do ambiente e das ferramentas à sua disposição. Este **guia do dino hunters** foi projetado para transformá-lo de um rastreador novato em um caçador lendário, otimizando suas decisões no início do jogo. O ciclo principal de jogabilidade gira em torno de explorar diversos biomas, identificar alvos de alto valor e usar armamentos específicos para capturá-los ou derrotá-los.
+
+Nos estágios iniciais, seu foco deve ser a familiaridade com o mapa. Diferentes dinossauros surgem em regiões específicas, e entender essas "zonas de spawn" é crítico para um farm eficiente. Novos jogadores frequentemente cometem o erro de vagar sem rumo; em vez disso, mire em zonas específicas de baixo nível para construir sua equipe inicial e estocar recursos básicos como Carne e Couro.
+
+| Equipamento Inicial | Dano Causado | Classificação de Alcance | Mobilidade | Melhor Caso de Uso |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rifle Básico** | Médio | ★★★★☆ | Baixa | Sniping de longo alcance |
+| **Arco de Caça** | Baixo | ★★★☆☆ | Alta | Táticas de bater e correr |
+| **Armadilha Pesada** | N/A | ★☆☆☆☆ | Muito Baixa | Capturar alvos rápidos |
+| **Faca de Ferro** | Alto | ★☆☆☆☆ | Média | Defesa corpo a corpo de emergência |
+
+<Callout type="tip" title="Dica de Profissional">
+Sempre carregue pelo menos dois tipos de armas diferentes. Um rifle de longo alcance para o engajamento e um arco de ação rápida ou arma corpo a corpo para quando os dinossauros encurtarem a distância inesperadamente.
+</Callout>
+
+Antes de se aventurar em biomas de selva profunda, certifique-se de que seu inventário esteja abastecido com itens de cura. A curva de dificuldade em Dino Hunters sobe significativamente assim que você sai dos prados iniciais, e estar despreparado pode levar à perda de recursos e progresso.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Tier de Dinossauros e Estratégia de Coleção">
+
+Nem todos os dinossauros são criados iguais. Construir uma equipe poderosa requer saber quais criaturas oferecem o melhor retorno sobre o investimento. Esta seção classifica os dinossauros mais procurados com base em sua utilidade em combate, raridade e potencial de melhoria. Coletar uma equipe equilibrada de atacantes, tanques e criaturas de utilidade é a chave para sobreviver a encontros com chefes de alto nível.
+
+<CardGrid cols={3}>
+  <Card title="Tier S: Tirano-rex">
+    - **Maior Dano Bruto**
+    - Enorme reserva de vida
+    - Essencial para chefes de fim de jogo
+  </Card>
+  <Card title="Tier A: Velociraptor">
+    - **Velocidade Incrível**
+    - Alta taxa de acerto crítico
+    - Perfeito para farm rápido de recursos
+  </Card>
+  <Card title="Tier B: Tricerátops">
+    - **Defesa Superior**
+    - Habilidades de repulsão
+    - Ótimo para tancar golpes pesados
+  </Card>
+</CardGrid>
+
+Ao construir sua coleção, preste atenção às cores de raridade: Cinza (Comum), Verde (Incomum), Azul (Raro), Roxo (Épico) e Dourado (Lendário). Embora seja tentador melhorar cada dinossauro que você captura, você deve focar seus materiais de melhoria limitados em criaturas de tier Azul ou superior.
+
+| Tipo de Dinossauro | Nível de Raridade | Taxa de Spawn | Dificuldade de Captura | Função Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Galimimo** | Comum | 65% | Muito Fácil | Farm de Recursos Básicos |
+| **Anquilossauro** | Raro | 15% | Média | Suporte Defensivo |
+| **Espinossauro** | Épico | 5% | Difícil | DPS de Linha de Frente Pesado |
+| **Giganotossauro** | Lendário | 1% | Extrema | Matador Supremo de Chefes |
+
+<Callout type="success" title="Bônus de Coleção">
+Completar conjuntos específicos em seu Diário de Dinossauros concede reforços permanentes de atributos, como aumento da velocidade de movimento ou maiores quedas de ouro de todas as fontes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhorias de Armas e Caminho de Progressão">
+
+Sua sobrevivência depende inteiramente da qualidade do seu equipamento. A progressão de armas em Dino Hunters é linear, mas requer um investimento significativo de recursos. Melhorar uma arma não apenas aumenta seu dano; muitas vezes desbloqueia modos de disparo secundários ou slots de munição especializados que são vitais para derrubar dinossauros blindados.
+
+O processo de melhoria envolve a coleta de minérios específicos e partes de monstros. Por exemplo, melhorar um rifle padrão para um "Rifle de Aço Endurecido" requer Minério de Ferro e Garras de Raptor. Sempre verifique a bancada de melhorias no hub principal para ver quais materiais você precisa farmar a seguir. Essa abordagem de farm direcionado evita perda de tempo e garante que você esteja sempre no nível de poder apropriado para sua zona atual.
+
+<Steps>
+  <Step num="1" title="Coleta de Recursos">
+    Colete minérios básicos e drops de dinossauros das zonas iniciais para alimentar seu primeiro conjunto de melhorias.
+  </Step>
+  <Step num="2" title="Acesso à Bancada">
+    Localize o Ferreiro no hub central para visualizar a árvore de melhorias para suas armas equipadas.
+  </Step>
+  <Step num="3" title="Priorização de Atributos">
+    Foque em **Dano** e **Velocidade de Recarga** primeiro. Estabilidade e Alcance são secundários para a maioria dos encontros de início de jogo.
+  </Step>
+  <Step num="4" title="Infusão Elemental">
+    No fim do jogo, adicione efeitos de Fogo ou Veneno às suas armas para ignorar as altas defesas dos chefes lendários.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso Importante">
+Não venda "Fragmentos Antigos" encontrados em baús. Estes são materiais raros de fim de jogo necessários para o tier final de evoluções de armas e são extremamente difíceis de farmar.
+</Callout>
+
+| Tier de Melhoria | Nível Necessário | Principal Benefício | Custo (Ouro) |
+| :--- | :--- | :--- | :--- |
+| **Tier 1: Reforçado** | Nível 5 | +15% de Dano Base | 500 |
+| **Tier 2: Tático** | Nível 15 | +25% de Velocidade de Recarga | 2.500 |
+| **Tier 3: Elite** | Nível 30 | +10% de Chance Crítica | 10.000 |
+| **Tier 4: Mítico** | Nível 50 | Slot de Dano Elemental | 50.000 |
+
+</Section>
+
+<Section icon={Target} title="Táticas Avançadas de Caça e Mecânicas de Chefe">
+
+Depois de dominar o básico, o verdadeiro desafio começa com os Dinossauros Chefes. Essas criaturas massivas têm mecânicas únicas que exigem mais do que apenas poder de fogo bruto. Para ter sucesso, você deve aprender a ler seus padrões de ataque e explorar suas fraquezas específicas. A maioria dos chefes tem ataques "telegrafados" — pistas visuais que indicam que um movimento poderoso está por vir.
+
+Por exemplo, o Rex Ancião rugirá e baterá os pés antes de realizar um ataque massivo de cauda em área (AoE). Ver essa pista permite que você se esquive para trás e evite danos letais. Combinar as habilidades da sua equipe de dinossauros com o fogo da sua própria arma é a maneira mais eficiente de derrubar esses gigantes. Use um dinossauro tanque como o Tricerátops para atrair o aggro enquanto você causa dano de uma distância segura com um rifle sniper.
+
+| Nome do Chefe | Elemento Primário | Fraqueza | Drop Raro |
+| :--- | :--- | :--- | :--- |
+| **Raptor de Gelo** | Gelo | Armas de Fogo | Garra Congelada |
+| **Golem de Vulcão** | Fogo | Água/Gelo | Núcleo de Magma |
+| **Pteranodonte da Tempestade** | Raio | Ataques Terrestres | Pena Elétrica |
+| **Alpha Ancião** | Neutro | Dano Crítico Alto | Essência Alpha |
+
+<Callout type="info" title="Estratégia de Chefe">
+Os chefes frequentemente têm fases "Enraivecidas" com 30% de vida. Durante esse tempo, sua velocidade e dano aumentam em 50%. Guarde suas habilidades definitivas para este trecho final para terminar a luta rapidamente.
+</Callout>
+
+A exploração também é fundamental para encontrar chefes ocultos. Algumas criaturas lendárias só aparecem durante condições climáticas específicas, como tempestades de raios ou tempestades de areia. Fique de olho no relógio do jogo e nos ícones de previsão do tempo no seu minimapa para garantir que você não perca essas oportunidades raras.
+
+</Section>
+
+<Section icon={Sparkles} title="Códigos Ativos e Checklists Diários">
+
+Para acelerar seu progresso, sempre aproveite as recompensas gratuitas fornecidas pelos desenvolvedores. Esses códigos podem fornecer reforços significativos ao seu ouro, experiência e até conceder dinossauros raros para novos jogadores. O menu de resgate geralmente é encontrado dentro do ícone de "Configurações" ou "Recompensas" no HUD principal.
+
+<Checklist
+  id="daily-hunter-tasks"
+  title="Objetivos Diários de Caça:"
+  items={[
+    "Resgatar quaisquer novos códigos ativos para reforços gratuitos",
+    "Completar 3 missões de Recompensa Diária para ouro extra",
+    "Participar de pelo menos um evento de Chefe Mundial",
+    "Melhorar uma peça de equipamento para seu próximo sub-tier",
+    "Coletar 50 materiais brutos da zona desbloqueada mais alta"
+  ]}
+/>
+
+<Callout type="success" title="Bônus de Novo Jogador">
+Se você está começando agora, use os códigos de iniciante encontrados no Discord oficial da comunidade para obter um "Pacote Inicial de Raptor" gratuito, que inclui um Velociraptor Nível 5 e 1.000 de Ouro.
+</Callout>
+
+Manter-se ativo na comunidade é a melhor maneira de manter seu conhecimento do **guia do dino hunters** atualizado. O meta muda à medida que novos dinossauros são adicionados e os equilíbrios de armas são ajustados. Verificar regularmente a guia "Atualizações" no jogo garantirá que você esteja sempre usando as estratégias mais eficazes disponíveis em 2026.
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais rápida de subir de nível no Dino Hunters?",
+    answer: "A maneira mais rápida de subir de nível é completando Missões de Recompensa e participando de eventos de Chefe Mundial. Estes fornecem significativamente mais experiência do que o farm padrão de monstros."
+  },
+  {
+    question: "Posso resetar minhas melhorias de arma se cometer um erro?",
+    answer: "Não, as melhorias de armas são permanentes. No entanto, você pode desmantelar armas para recuperar cerca de 50% dos materiais usados, que podem então ser aplicados em uma peça de equipamento diferente."
+  },
+  {
+    question: "Como capturo um dinossauro em vez de matá-lo?",
+    answer: "Para capturar um dinossauro, você deve reduzir a vida dele para menos de 20% e então usar uma Armadilha ou uma Rede de Captura. Alguns dinossauros de alto nível exigem 'Armadilhas Mestre' especializadas para serem capturados com sucesso."
+  },
+  {
+    question: "Onde posso encontrar o melhor guia do dino hunters para localizações de chefes?",
+    answer: "A melhor maneira de encontrar localizações de chefes é verificar a guia 'Mapa' no seu Diário do Caçador, que marca pontos de spawn conhecidos para criaturas lendárias assim que você descobre a região delas."
+  }
+]} />
+
+</Section>

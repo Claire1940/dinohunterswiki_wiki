@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de Dino Hunters: Domina las Mecánicas de Combate y Supervivencia",
+  description: "Aprende las mecánicas esenciales de la jugabilidad de Dino Hunters, incluidos los controles de armas, estrategias de misiones de rescate y manejo de vehículos para dominar el campo de batalla prehistórico.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guía+de+Jugabilidad+de+Dino+Hunters",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Dino Hunters",
+  keywords: "dino hunters, jugabilidad, combate, supervivencia, dinosaurios, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **jugabilidad de Dino Hunters** se centra en una mezcla de disparos en primera persona, misiones tácticas de rescate y navegación de vehículos a alta velocidad.
+- La **gestión de armas** es fundamental; los jugadores deben alternar entre armas de fuego principales y secundarias utilizando el botón dedicado de dos armas para una eficiencia óptima.
+- El **combate de precisión** recompensa a los jugadores por los disparos a la cabeza, que son esenciales para abatir rápidamente a las amenazas prehistóricas más grandes.
+- Los **objetivos de rescate** requieren limpiar áreas de dinosaurios para salvar a civiles y niños, a menudo bajo limitaciones de tiempo o salud.
+- La **movilidad avanzada** incluye una combinación de saltos, desplazamientos (shift) y el uso de mecánicas de cámara lenta para obtener una ventaja táctica.
+</Callout>
+
+<Section icon={Map} title="Navegación Principal y Diseño de la Interfaz">
+
+Comprender la interfaz fundamental es el primer paso para dominar la **jugabilidad de Dino Hunters**. El juego utiliza una configuración de doble stick en dispositivos móviles, donde el lado izquierdo de la pantalla controla el movimiento mediante un joystick virtual, y el lado derecho gestiona la rotación de la cámara y las acciones de combate. Navegar a través de entornos selváticos densos requiere una conciencia ambiental constante para evitar ser flanqueado por depredadores.
+
+**Puntos Destacados del Video:**
+- **Controles de Movimiento**: Demostración del uso del joystick para un posicionamiento fluido del personaje.
+- **IU de Combate**: Un desglose de los botones de disparo, salto y cambio de arma.
+- **Puntería de Precisión**: Cómo usar las funciones de acercamiento y alejamiento para enfrentamientos a larga distancia.
+- **Transición a Vehículos**: Cambio del combate a pie a las mecánicas de conducción a alta velocidad.
+
+<YouTubeEmbed videoId="zWcekEEEZ1M" title="Dino Hunters 2023 - Jugabilidad en Android" />
+
+La siguiente tabla describe el esquema de control principal para la exploración a pie. Dominar estas entradas permite transiciones fluidas entre la exploración y los encuentros de combate repentinos.
+
+| Acción | Método de Control | Función Principal |
+| :--- | :--- | :--- |
+| **Movimiento** | Joystick Virtual (Izquierda) | Arrastra el dedo para mover al personaje en cualquier dirección |
+| **Vista de Cámara** | Arrastrar Pantalla (Derecha) | Rota la cámara para escanear el entorno |
+| **Disparar** | Botón de Disparo Dedicado | Ejecuta disparos con el arma equipada actualmente |
+| **Saltar** | Botón de Salto | Navega por terreno vertical y esquiva ataques bajos |
+| **Cambio de Arma** | Icono de Dos Armas | Alterna entre las armas de fuego disponibles en tu inventario |
+
+<Callout type="tip" title="Consejo de Navegación">
+Mantén siempre el pulgar en el lado derecho de la pantalla para rotar la cámara mientras te mueves. Esto evita que los dinosaurios se acerquen sigilosamente por detrás, lo cual es una causa común de fracaso en misiones de niveles de dificultad más altos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Maestría de Armas">
+
+El combate en la **jugabilidad de Dino Hunters** está diseñado para ser rápido y gratificante para los jugadores precisos. A diferencia de los shooters estándar, los objetivos prehistóricos en este juego tienen diferentes cajas de colisión (hitboxes) y patrones de movimiento. Los jugadores deben utilizar la mecánica "Shift" para reposicionarse rápidamente cuando un dinosaurio carga, asegurándose de mantener una distancia segura mientras infligen daño.
+
+<CardGrid cols={3}>
+  <Card title="Fuego de Precisión">
+    - **Multiplicadores de Disparo a la Cabeza**: Apunta a la cabeza para infligir un daño crítico masivo.
+    - **Mecánicas de Zoom**: Usa la mira para el rastreo de dinosaurios a larga distancia.
+    - **Estabilidad**: Quédate quieto mientras disparas para aumentar la precisión general.
+  </Card>
+  <Card title="Habilidades Tácticas">
+    - **Cámara Lenta**: Activa la cámara lenta para alinear disparos difíciles en objetivos rápidos.
+    - **Botones de Habilidad**: Usa habilidades específicas del personaje para cambiar el rumbo de la batalla.
+    - **Desplazamiento Rápido (Shift)**: Usa el botón shift para esquivar embestidas entrantes.
+  </Card>
+  <Card title="Gestión del Arsenal">
+    - **Cambio de Armas**: Transición entre armas de alta cadencia de fuego y armas de alto daño.
+    - **Tiempo de Recarga**: Recarga siempre entre oleadas de dinosaurios para estar listo.
+    - **Conservación de Munición**: Enfócate en la precisión para ahorrar recursos limitados.
+  </Card>
+</CardGrid>
+
+Para maximizar tu efectividad, debes entender cómo las diferentes acciones de combate impactan en tu rendimiento. La tabla a continuación compara las diversas maniobras de combate disponibles para el cazador.
+
+| Maniobra | Dificultad | Impacto | Mejor Uso |
+| :--- | :--- | :--- | :--- |
+| **Disparo a la Cabeza** | Alta | Daño Extremo | Terminar peleas rápidamente contra objetivos individuales |
+| **Cámara Lenta** | Media | Ventaja Táctica | Rastrear dinosaurios voladores o de movimiento rápido |
+| **Cambio de Arma** | Baja | DPS Sostenido | Cambiar a un arma cargada cuando la principal está vacía |
+| **Apuntar con Zoom** | Baja | Rango Incrementado | Identificar amenazas desde una distancia segura |
+| **Disparo en Salto** | Alta | Ataque Evasivo | Infligir daño mientras se evitan zarpazos terrestres |
+
+<Callout type="warning" title="Advertencia de Combate">
+El botón "Shift" no es solo para el movimiento; es una herramienta defensiva. Si un dinosaurio se acerca demasiado, desplazarte puede evitar que recibas daño, pero tiene un tiempo de reutilización corto que debes gestionar con cuidado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estructura de las Misiones y Operaciones de Rescate">
+
+Una parte significativa de la **jugabilidad de Dino Hunters** involucra operaciones de rescate. Estas misiones sitúan al jugador en escenarios de alto riesgo donde deben proteger a civiles o niños de los depredadores que se aproximan. El éxito en estas misiones se determina por la rapidez con la que el jugador puede eliminar las amenazas antes de que los PNJ reciban daño.
+
+<Steps>
+  <Step num="1" title="Reconocimiento del Área">
+    Al entrar en una zona de misión, usa la función de zoom para identificar la ubicación de los dinosaurios y los civiles. Se debe dar prioridad a los dinosaurios más cercanos a los objetivos.
+  </Step>
+  <Step num="2" title="Atacando el Perímetro">
+    Comienza eliminando a los dinosaurios más pequeños y rápidos. Estos a menudo actúan como exploradores y pueden abrumar rápidamente al objetivo de rescate si no se controlan.
+  </Step>
+  <Step num="3" title="Ejecutando Disparos a la Cabeza">
+    Concéntrate en realizar disparos a la cabeza para limpiar el área de manera eficiente. El juego proporciona retroalimentación visual y notificaciones de "Headshot" para confirmar los impactos críticos exitosos.
+  </Step>
+  <Step num="4" title="Extracción Final">
+    Una vez que todas las amenazas han sido neutralizadas, la misión concluye. Asegúrate de haber revisado todos los rincones del mapa, ya que algunos dinosaurios pueden estar ocultos detrás del follaje.
+  </Step>
+</Steps>
+
+| Tipo de Misión | Objetivo Principal | Dificultad | Estrategia Clave |
+| :--- | :--- | :--- | :--- |
+| **Salvar Personas** | Proteger a varios adultos | Moderada | Denegación de área y control de multitudes |
+| **Rescatar Niño** | Proteger a un solo PNJ pequeño | Alta | Disparos de precisión y cambio rápido de objetivos |
+| **Exterminio** | Matar a todos los dinosaurios | Baja | Uso eficiente de munición y exploración |
+| **Persecución** | Escoltar o perseguir desde un coche | Moderada | Aceleración controlada y disparos en movimiento |
+
+<Callout type="info" title="Información de Misión">
+Las misiones de rescate a menudo presentan múltiples oleadas de dinosaurios. No bajes la guardia después de las primeras muertes; espera la notificación de "Misión Completada" antes de relajarte.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Manejo de Vehículos y Navegación a Alta Velocidad">
+
+Más allá del combate a pie, la **jugabilidad de Dino Hunters** incorpora segmentos basados en vehículos que cambian el ritmo del juego. Los jugadores pasan de disparos precisos a una conducción a alta velocidad, donde el objetivo suele ser llegar a un destino o escapar de un depredador que los persigue. Los controles cambian para enfocarse en la aceleración y la dirección.
+
+Las mecánicas de conducción están simplificadas para la accesibilidad móvil, pero requieren un conjunto de habilidades diferente en comparación con los segmentos de disparo. Equilibrar la velocidad con la dirección es esencial para evitar chocar contra obstáculos ambientales o quedar atrapado por el terreno.
+
+| Control | Función | Estrategia |
+| :--- | :--- | :--- |
+| **Botón de Carrera** | Acelerar | Mantén presionado para máxima velocidad en rectas |
+| **Botones Izq/Der** | Dirección | Usa toques cortos para ajustes menores o largos para giros |
+| **Freno/Reversa** | Frenar | Esencial para curvas cerradas y evitar obstáculos |
+| **Nitro (Si está disponible)** | Impulso de Velocidad | Guárdalo para escapar de grandes depredadores o saltos largos |
+
+<Callout type="success" title="Éxito en la Conducción">
+Al conducir, prioriza mantenerte en el camino designado. Salirse de la carretera a menudo conduce a velocidades más lentas y aumenta el riesgo de ser alcanzado por especies de dinosaurios más rápidas que pueden seguir el ritmo del vehículo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación de Supervivencia y Progresión">
+
+Para tener éxito de manera constante en la **jugabilidad de Dino Hunters**, los jugadores deben seguir un enfoque disciplinado en su progresión y supervivencia. Esto implica mejorar el equipo, dominar los diversos elementos de la interfaz de usuario y mantener un alto nivel de precisión en todos los tipos de misiones.
+
+<Checklist
+  id="survival-checklist"
+  title="Lista de Preparación del Cazador:"
+  items={[
+    "Verificar que todos los espacios de armas estén llenos antes de comenzar una misión",
+    "Practicar el tiempo de la 'Cámara Lenta' en los niveles iniciales",
+    "Dominar la transición entre el movimiento del joystick y la rotación de la cámara",
+    "Asegurarse de que el botón de 'Carrera' responda bien para los segmentos de vehículos",
+    "Confirmar la precisión de los 'Disparos a la Cabeza' primero en objetivos estacionarios",
+    "Mejorar los niveles de zoom de las armas para manejar amenazas a larga distancia"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de Progresión">
+Enfoca tus recursos del juego temprano en mejorar el zoom y el daño de tu rifle principal. Esto facilita significativamente las misiones de rescate, ya que puedes eliminar las amenazas antes de que alcancen a los civiles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo cambio de arma en Dino Hunters?",
+    answer: "Puedes cambiar entre tus armas equipadas tocando el icono de dos armas ubicado en el lado derecho de la pantalla. Esto te permite cambiar a un arma secundaria si la principal se queda sin munición o si necesitas una cadencia de fuego diferente."
+  },
+  {
+    question: "¿Cuál es la mejor manera de lidiar con dinosaurios grandes?",
+    answer: "La estrategia más efectiva es usar la función de zoom para apuntar a la cabeza. Además, activar la habilidad de cámara lenta puede darte el tiempo extra necesario para realizar múltiples impactos críticos antes de que el dinosaurio llegue a tu posición."
+  },
+  {
+    question: "¿Cómo funciona la aceleración del vehículo?",
+    answer: "Durante los segmentos de conducción, aparece un botón dedicado de 'Carrera'. Mantener presionado este botón acelerará el vehículo. Debes usar los botones de dirección izquierda y derecha simultáneamente para navegar por el terreno."
+  },
+  {
+    question: "¿Hay diferentes objetivos en la jugabilidad de Dino Hunters?",
+    answer: "Sí, las misiones varían desde el exterminio básico de dinosaurios hasta complejas operaciones de rescate donde debes salvar a civiles o niños. También hay misiones basadas en vehículos que se centran en la navegación y la velocidad."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Dominar las diversas mecánicas de la **jugabilidad de Dino Hunters** requiere tiempo y práctica. Enfócate en la precisión y la conciencia ambiental para convertirte en el cazador prehistórico definitivo.
+</Callout>
+
+</Section>

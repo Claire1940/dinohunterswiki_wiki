@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Farming en Dino Hunters: Guía de Progresión y Recursos 2026",
+  description: "Optimiza tus rutas de farming en Dino Hunters. Domina las mejoras de dinosaurios, la gestión de recursos y las estrategias de equipo en esta guía de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farming+and+Progression+Guide",
+  date: "2026-07-20",
+  author: "Equipo de Wiki de Dino Hunters",
+  keywords: "dino hunters, farming, guía de progresión, recursos, dinosaurios"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Farming principal**: Dirígete a zonas de alto rendimiento para maximizar las tasas de adquisición de recursos y dinosaurios.
+- **Prioridad de mejora**: Enfoca los recursos estrictamente en dinosaurios de Tier S y Tier A para evitar el desperdicio de materiales.
+- **Sinergia de equipo**: Construye equipos equilibrados combinando atacantes y unidades de utilidad para limpiezas más rápidas.
+- **Optimización de rutas**: Sigue las rutas de farming establecidas para minimizar el tiempo de inactividad entre los ciclos de aparición (spawn).
+</Callout>
+
+<Section icon={Map} title="Zonas de Farming y Navegación del Mapa">
+
+Hacer farming de manera eficiente en Dino Hunters requiere una comprensión profunda del diseño del mundo del juego y las mecánicas de aparición. Diferentes regiones ofrecen distintos recursos, tipos de dinosaurios y niveles de dificultad. Para maximizar tu tiempo, debes alinear la fuerza actual de tu equipo con la zona de farming adecuada. Aventurarse en áreas de alto nivel demasiado pronto resulta en tiempos de limpieza lentos, mientras que permanecer en áreas de bajo nivel produce rendimientos decrecientes.
+
+Cada zona cuenta con nodos de aparición específicos donde los dinosaurios y los recursos reaparecen en temporizadores establecidos. Memorizar estas ubicaciones te permite establecer un bucle continuo, minimizando el tiempo de inactividad. Al rotar a través de los puntos de aparición, aseguras un flujo constante de experiencia y materiales para potenciar tu alineación.
+
+| Región | Dificultad | Recursos Principales | Tasa de Aparición | Prioridad de Limpieza |
+| :--- | :--- | :--- | :--- | :--- |
+| Jungla Inicial | Principiante | Hierbas Básicas, Huesos Comunes | Rápida (1-2 min) | Baja (Solo progresión temprana) |
+| Valle Antiguo | Intermedio | Mineral Raro, Fósiles de nivel medio | Moderada (3-5 min) | Media (Bueno para subir de nivel) |
+| Cresta Volcánica | Avanzado | Fragmentos de Obsidiana, Escamas Épicas | Lenta (8-10 min) | Alta (Farming de fin de juego base) |
+| Tundra Helada | Experto | Cristales Glaciares, ADN Legendario | Muy Lenta (15+ min) | Máxima (Optimización de fin de juego) |
+
+Optimizar tu ruta dentro de estas regiones es crucial. Por ejemplo, en la Cresta Volcánica, la densa concentración de Fragmentos de Obsidiana la convierte en el lugar principal para las mejoras de armas. Sin embargo, los peligros ambientales y las apariciones de dinosaurios agresivos significan que debes traer un equipo altamente resistente. Siempre elimina a los grupos de enemigos más pequeños de los alrededores antes de enfrentarte a los objetivos de élite para evitar verte abrumado durante tus sesiones de farming.
+
+<Callout type="tip" title="Consejo Pro de Farming">
+Prioriza siempre las zonas donde tu equipo pueda eliminar a los enemigos en menos de treinta segundos. Las limpiezas rápidas y repetidas en una zona intermedia rinden significativamente más recursos por hora que luchar en un solo encuentro de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Farming de Dinosaurios y Tácticas de Captura">
+
+Capturar y criar dinosaurios es el núcleo del juego. Para construir un equipo competitivo, debes entender qué criaturas valen tu tiempo y recursos. Los dinosaurios se dividen en distintas clases, cada una con un rol único en el combate y la eficiencia del farming. Centrar tus esfuerzos en objetivos de alto valor asegura una progresión rápida.
+
+Al cazar, evalúa siempre el tier del objetivo y su contribución potencial a la sinergia de tu equipo. Los dinosaurios de Tier S y Tier A siempre deben capturarse de inmediato, mientras que las criaturas de menor nivel pueden ser farmeadas principalmente por materiales de extracción o forraje para mejoras.
+
+| Clase de Dinosaurio | Tier | Habilidad Clave | Prioridad de Farm | Rol de Combate |
+| :--- | :--- | :--- | :--- | :--- |
+| Tiranosaurio | S | Mordida Trituradora (Perforación de Def) | Máxima | DPS Físico Principal |
+| Triceratops | A | Escudo Guardián (Provocación en Área) | Alta | Tanque Principal / Control de Masas |
+| Velocirraptor | A | Ataque Veloz (Alta Tasa Crítica) | Alta | Asesino de un Solo Objetivo |
+| Pterodáctilo | B | Reconocimiento Aéreo (Buff de Velocidad) | Media | Soporte / Buffer |
+| Estegosaurio | B | Barrido de Cola (Empuje en Área) | Media | Off-Tank / Disruptor |
+| Parasaurolophus | C | Eco Curativo (Regeneración de Vida) | Baja | Sanador de Juego Temprano |
+
+Para capturar estas criaturas de manera eficiente, debes emplear tácticas específicas basadas en tu etapa de progresión. Dispersar demasiado tu enfoque en todas las clases ralentizará tu crecimiento de poder general.
+
+<CardGrid cols={3}>
+  <Card title="Tácticas de Juego Temprano">
+    - **Enfoque en Tanques**: Captura un tanque confiable como el Triceratops desde el principio.
+    - **Conservación de Recursos**: Evita usar objetos de captura premium en criaturas de Tier C.
+    - **Nivelación**: Usa la Jungla Inicial para subir de nivel rápidamente a tu equipo de captura inicial.
+  </Card>
+  <Card title="Optimización de Juego Medio">
+    - **Objetivos de Unidades DPS**: Farmea Velocirraptores para aumentar el daño total de tu equipo.
+    - **Construcción de Sinergia**: Comienza a emparejar a tus tanques con buffers para manejar zonas más difíciles.
+    - **Farming de Materiales**: Extrae dinosaurios de menor tier para acumular materiales de mejora.
+  </Card>
+  <Card title="Maestría de Juego Tardío">
+    - **Cacerías Legendarias**: Enfócate completamente en las apariciones de Tier S en la Cresta Volcánica y la Tundra Helada.
+    - **Rasgos Perfectos**: Farmea repetidamente la misma especie para buscar estadísticas óptimas.
+    - **Mejoras Máximas**: Compromete totalmente tus recursos acumulados en tus tres mejores unidades.
+  </Card>
+</CardGrid>
+
+Durante las cacerías de alto nivel, la preparación es clave. Asegúrate de que tu alineación activa esté completamente curada y tu inventario esté abastecido con los dispositivos de captura adecuados antes de iniciar el combate.
+
+<Callout type="warning" title="Advertencia de Combate">
+Los dinosaurios de alto nivel en la Cresta Volcánica y la Tundra Helada poseen poderosos ataques en área que pueden aniquilar a equipos no preparados. Esquiva siempre los indicadores rojos en el suelo para evitar daños masivos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rutas de Progresión y Mejora">
+
+Mejorar a tus dinosaurios es la forma más directa de aumentar tu poder de combate y la eficiencia del farm. Sin embargo, los recursos son escasos y el gasto ineficiente puede detener severamente tu progreso. Seguir una ruta de mejora estructurada asegura que cada material gastado contribuya directamente al éxito de tu equipo.
+
+Para maximizar tu eficiencia, sigue estos pasos secuenciales al gestionar la progresión de tu equipo.
+
+<Steps>
+  <Step num="1" title="Asegura tu Alineación Principal">
+    Antes de invertir fuertemente en mejoras, asegúrate de tener un equipo equilibrado que consista en al menos un tanque, un atacante principal y un soporte de utilidad. No desperdicies materiales preciosos en unidades temporales que planeas reemplazar pronto.
+  </Step>
+  <Step num="2" title="Asigna Materiales de Mejora">
+    Enfoca tus recursos de mejora principales primero en tu atacante principal. Un alto rendimiento de daño permite tiempos de limpieza más rápidos, lo que a su vez acelera tu tasa de recolección de recursos. Mantén a tu tanque mejorado lo justo para sobrevivir a los encuentros estándar.
+  </Step>
+  <Step num="3" title="Evoluciona Unidades Clave">
+    Una vez que un dinosaurio principal alcance su límite de nivel, reúne los materiales de evolución necesarios. La evolución desbloquea nuevas y poderosas habilidades pasivas y aumenta significativamente las estadísticas base, permitiéndote transicionar a zonas de farming de mayor nivel.
+  </Step>
+  <Step num="4" title="Optimiza la Sinergia del Equipo">
+    Ajusta tu equipo mejorando las habilidades pasivas de apoyo y equipando equipo de alto nivel. En esta etapa, enfócate en maximizar las sinergias de estadísticas, como emparejar buffs de golpe crítico con atacantes de alta destreza.
+  </Step>
+</Steps>
+
+Entender qué recursos priorizar y dónde encontrarlos es esencial para mantener una curva de progresión constante. Usa la siguiente matriz de recursos para planificar tus rutas diarias de farming.
+
+| Tipo de Recurso | Fuente Principal | Enfoque de Mejora | Calificación de Eficiencia |
+| :--- | :--- | :--- | :--- |
+| Huesos Antiguos | Jungla y Valle | Nivelación Base | ★★★★☆ (Esencial al inicio) |
+| Escamas Endurecidas | Cresta Volcánica | Mejoras de Defensa | ★★★☆☆ (Utilidad de nicho) |
+| Cristales Primordiales | Tundra Helada | Evolución de Habilidades | ★★★★★ (Crítico en el endgame) |
+| Fragmentos de Obsidiana | Cresta Volcánica | Forja de Armas | ★★★★☆ (Gran aumento ofensivo) |
+
+Al alinear tus objetivos de farming con tus metas de progresión inmediatas, evitas acumular exceso de materiales de bajo nivel mientras te faltan artículos críticos de evolución.
+
+<Callout type="success" title="Éxito en la Progresión">
+Priorizar las mejoras de armas de tu unidad DPS principal puede aumentar tu velocidad de farming hasta en un cuarenta por ciento, permitiéndote limpiar zonas de alto rendimiento con un tiempo de inactividad mínimo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construcción de Equipos y Equipamientos de Farming">
+
+Crear un equipo altamente sincronizado es el paso final para dominar el ciclo de farming. Un equipamiento bien construido te permite enfrentar contenido que de otro modo sería demasiado difícil para tu nivel actual. Al construir tu equipo, busca habilidades complementarias que cubran las debilidades de los demás.
+
+Por ejemplo, emparejar un tanque de alta amenaza con un asesino frágil de gran daño asegura que tu atacante pueda infligir el máximo DPS sin recibir golpes directos. Además, incorporar unidades de soporte que proporcionen velocidad o buffs de ataque puede reducir drásticamente tus tiempos de limpieza.
+
+| Arquetipo de Equipo | Dinosaurios Clave | Ventaja Principal | Velocidad de Limpieza |
+| :--- | :--- | :--- | :--- |
+| Ataque Ofensivo | T-Rex, Velocirraptor, Pterodáctilo | Máximo daño, alta probabilidad crítica | Rápida (Excelente para farming básico) |
+| Supervivencia Equilibrada | Triceratops, T-Rex, Estegosaurio | Alta supervivencia, limpiezas constantes | Moderada (Mejor para progresar) |
+| Muro Defensivo | Triceratops, Estegosaurio, Anquilosaurio | Casi invencible, alto control de masas | Lenta (Ideal para jefes desafiantes) |
+
+Para mantener un ritmo de progresión constante, establece una lista diaria de objetivos. Esto asegura que estés recolectando consistentemente los materiales necesarios para mejorar tu equipo.
+
+<Checklist
+  id="daily-farming-goals"
+  title="Hitos Diarios de Farming:"
+  items={[
+    "Limpiar tres nodos de recursos de alto rendimiento en la Cresta Volcánica",
+    "Capturar al menos dos dinosaurios de tier Raro para extracción de materiales",
+    "Completar todas las misiones de recompensa diarias para obtener moneda extra",
+    "Mejorar al menos una habilidad principal en tu atacante principal",
+    "Realizar un circuito completo de la ruta de aparición del Valle Antiguo"
+  ]}
+/>
+
+Revisa regularmente el desempeño de tu equipo durante las sesiones de farming. Si encuentras que tus unidades mueren con frecuencia, cambia una unidad ofensiva por un soporte defensivo. Por el contrario, si tus limpiezas tardan demasiado, aumenta tus capacidades ofensivas.
+
+<Callout type="info" title="Nota de Configuración">
+Ajusta la composición de tu equipo basándote en las resistencias específicas de los dinosaurios en tu zona de farming objetivo. Traer unidades resistentes al fuego a la Cresta Volcánica, por ejemplo, aumenta enormemente tu tasa de supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+Para ayudarte a aprovechar al máximo tu viaje de progresión, hemos recopilado respuestas a las preguntas más comunes sobre la recolección de recursos y la optimización del equipo.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más eficiente de empezar el farming en Dino Hunters?",
+    answer: "Comienza enfocándote en la zona del Valle Antiguo. Ofrece el mejor equilibrio entre dificultad y rendimiento de recursos para los jugadores en progresión. Construye un equipo con al menos un tanque confiable y un atacante de alto daño para asegurar limpiezas rápidas y seguras."
+  },
+  {
+    question: "¿Debería mejorar cada dinosaurio que capture?",
+    answer: "No. Los recursos son limitados. Solo debes invertir materiales de mejora en dinosaurios de Tier S y Tier A que encajen en tu composición de equipo a largo plazo. Guarda las unidades de menor nivel para la extracción de materiales."
+  },
+  {
+    question: "¿Con qué frecuencia reaparecen los nodos de recursos de alto nivel?",
+    answer: "Los temporizadores de aparición varían según la zona. Los nodos básicos en la Jungla Inicial reaparecen en menos de dos minutos, mientras que los nodos raros de obsidiana y cristal en zonas de fin de juego como la Cresta Volcánica pueden tardar hasta diez minutos en reaparecer."
+  },
+  {
+    question: "¿Es mejor farmear solo o en grupo?",
+    answer: "Se recomienda encarecidamente farmear en grupo para zonas de alto nivel como la Tundra Helada. El juego en grupo te permite derrotar a los dinosaurios de élite mucho más rápido, aumentando significativamente tu rendimiento de recursos por hora."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+La consistencia es clave para dominar el ciclo de farming. Mantente fiel a tus rutas diarias, gestiona tus recursos con cuidado y prioriza las mejoras de tu equipo principal para mantenerte a la vanguardia de la curva de progresión.
+</Callout>
+
+</Section>

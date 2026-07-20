@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dinossauros Raros de Dino Hunters: Locais de Surgimento e Guia de Captura",
+  description: "Aprenda como encontrar, capturar e aprimorar dinossauros raros de Dino Hunters. Domine as taxas de surgimento em biomas, métodos de rastreamento e estratégias de construção de equipe.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Rare+Dinosaurs+Guide",
+  date: "2026-07-20",
+  author: "Equipe da Wiki de Dino Hunters"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Dinossauros Raros**: Rastrear **dinossauros raros de dino hunters** requer o entendimento de surgimentos em biomas específicos e a utilização de ferramentas de armadilha avançadas.
+- **Surgimento por Bioma**: As categorias Lendário e Épico surgem principalmente em zonas de alto risco, como a Cratera Vulcânica e as Cavernas Profundas.
+- **Estratégia de Captura**: Enfraqueça os alvos usando armas elementais antes de implantar armadilhas de alto nível para maximizar as taxas de sucesso.
+- **Gerenciamento de Recursos**: Priorize o aprimoramento de uma única equipe de Nível S em vez de espalhar recursos raros entre várias criaturas de nível baixo.
+</Callout>
+
+<Section icon={Sparkles} title="Dinossauros Raros de Dino Hunters: Níveis de Raridade e Classificações">
+
+Entender a estrutura de raridade é o primeiro passo para se tornar um caçador de elite. Neste jogo, os dinossauros são classificados em cinco níveis de raridade distintos, cada um definindo suas estatísticas base, limites de nível máximo e slots de habilidades únicas. Encontrar e garantir **dinossauros raros de dino hunters** é essencial para a progressão no fim do jogo, pois criaturas de níveis inferiores perdem rapidamente a eficácia em combate durante caçadas de alto nível.
+
+A raridade de um dinossauro influencia diretamente seu potencial de escalonamento. Enquanto um dinossauro Comum pode começar com uma saúde base decente, seu crescimento de estatísticas por nível é significativamente menor do que o de um equivalente Épico ou Lendário. Dinossauros Lendários também possuem habilidades de sinergia passiva que aumentam o desempenho de todo o seu elenco de caça.
+
+| Nível de Raridade | Chance de Surgimento | Dificuldade de Captura | Classificação de Poder |
+|---|---|---|---|
+| **Lendário** | < 1% | Muito Alta | ★★★★★ |
+| **Épico** | 1% - 5% | Alta | ★★★★ |
+| **Raro** | 5% - 15% | Média | ★★★ |
+| **Incomum** | 15% - 40% | Baixa | ★★ |
+| **Comum** | > 40% | Muito Baixa | ★ |
+
+<Callout type="tip" title="Dica Profissional">
+Não gaste recursos valiosos de aprimoramento em dinossauros Comuns ou Incomuns no início. Economize seus materiais para alvos Raros e Épicos, que oferecem um retorno sobre o investimento muito maior conforme você transita para o conteúdo de meio de jogo.
+</Callout>
+
+Cada nível de raridade também introduz indicadores visuais únicos. Dinossauros Lendários frequentemente apresentam padrões de pele distintos, marcações bioluminescentes ou modelos físicos maiores do que seus equivalentes comuns. Ao explorar a natureza, fique atento a essas anomalias visuais, pois são a maneira mais fácil de identificar alvos de alto valor à distância.
+
+</Section>
+
+<Section icon={Map} title="Locais de Surgimento e Rastreamento de Biomas">
+
+Os dinossauros não surgem aleatoriamente pelo mapa. O jogo apresenta um sistema de biomas estruturado onde espécies específicas estão vinculadas a zonas ambientais. Para caçar as criaturas mais esquivas, você deve navegar por territórios perigosos e se adaptar aos padrões climáticos regionais que influenciam os comportamentos de surgimento.
+
+A tabela abaixo descreve os principais biomas, os dinossauros de alto nível que os habitam e o equipamento recomendado necessário para sobreviver aos riscos ambientais de cada zona.
+
+| Zona de Bioma | Surgimentos Raros | Risco Ambiental | Arma Recomendada |
+|---|---|---|---|
+| **Dossel da Selva** | Espinossauro, Raptor Prime | Névoa Densa | Arco Recurvo |
+| **Cratera Vulcânica** | Tiranossauro Rex, Pirossauro | Calor Extremo | Rifle Criogênico |
+| **Vale Glacial** | Mamute, Raptor de Gelo | Frio Congelante | Repetidor de Plasma |
+| **Cavernas Profundas** | Carnotauro, Shadow Stalker | Baixa Visibilidade | Escopeta Pesada |
+
+<Callout type="warning" title="Aviso de Risco">
+Entrar na Cratera Vulcânica ou no Vale Glacial sem o equipamento de proteção ambiental adequado esgotará rapidamente sua estamina e saúde, tornando quase impossível completar com sucesso uma captura de alto nível.
+</Callout>
+
+Para rastrear essas criaturas raras com eficiência, caçadores de sucesso utilizam uma combinação de métodos visuais, auditivos e táticos. Confiar apenas na sorte resultará em horas de esforço desperdiçado, enquanto o rastreamento estruturado garante encontros consistentes.
+
+<CardGrid cols={3}>
+  <Card title="Rastreamento Visual">
+    Procure por folhagens quebradas, pegadas grandes e caminhos de terra perturbados. Dinossauros de alto nível deixam rastros maiores e mais distintos que brilham levemente sob scanners táticos.
+  </Card>
+  <Card title="Dicas Sonoras">
+    Ouça vocalizações únicas. Espécies Lendárias têm rugidos profundos e distintos que ecoam pelo bioma, indicando sua direção geral e distância.
+  </Card>
+  <Card title="Sistemas de Iscas">
+    Implante iscas de feromônio especializadas que correspondam à dieta do seu alvo. Iscas de carnívoros atraem predadores agressivos, enquanto iscas de herbívoros atraem gigantes pacíficos.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Mecânicas de Captura e Configuração de Equipamento">
+
+Capturar um dinossauro raro é um processo de vários estágios que requer paciência, precisão e o equipamento correto. Tentar capturar um alvo de alto nível com a saúde cheia ou com equipamento básico quase certamente resultará na falha da armadilha e na fuga do dinossauro ou em ele se tornar hostil.
+
+O processo de captura é dividido em quatro fases distintas. Seguir este caminho de progressão garante a maior taxa de sucesso possível, minimizando os danos ao seu equipamento de caça.
+
+<Steps>
+  <Step num="1" title="Localizar e Isolar">
+    Encontre seu alvo usando os métodos de rastreamento de bioma. Elimine quaisquer predadores menores ao redor para evitar que interfiram no processo de captura ou danifiquem suas armadilhas.
+  </Step>
+  <Step num="2" title="Enfraquecer o Alvo">
+    Reduza a saúde do dinossauro com segurança. Use armas de longo alcance para desgastar seu HP até que ele entre em um estado de manqueira ou exaustão. Evite usar armas altamente explosivas que possam derrotar a criatura acidentalmente.
+  </Step>
+  <Step num="3" title="Implantar a Armadilha">
+    Coloque uma armadilha de alto nível diretamente no caminho do dinossauro. Conduza a criatura enfraquecida para a zona de ativação da armadilha usando iscas ou posicionando-se como isca viva.
+  </Step>
+  <Step num="4" title="Garantir a Captura">
+    Assim que o dinossauro estiver imobilizado, aproxime-se com cuidado e use seu dispositivo de captura para finalizar o processo. Fique de olho na barra de progresso da captura e esteja pronto para lançar redes de atordoamento secundárias se o alvo tentar se libertar.
+  </Step>
+</Steps>
+
+Sua escolha de equipamento de captura é tão importante quanto a execução dos passos. Diferentes armadilhas oferecem níveis variados de sucesso, dependendo do tamanho e da força do alvo.
+
+| Equipamento | Taxa de Sucesso | Custo de Recursos | Tempo de Recarga |
+|---|---|---|---|
+| **Lançador de Redes Básico** | Baixa | Muito Baixo | Rápido |
+| **Armadilha de Aço Reforçada** | Média | Médio | Médio |
+| **Arpão de Atordoamento Avançado** | Alta | Alto | Lento |
+| **Campo de Estase Quântica** | Muito Alta | Extremamente Alto | Muito Lento |
+
+<Callout type="success" title="Fator de Sucesso">
+Aprimorar a capacidade da bateria e a velocidade de recarga do seu dispositivo de captura no hub principal reduzirá significativamente o tempo necessário para garantir um alvo, diminuindo o risco de interferência de outros jogadores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Aprimorando e Evoluindo Dinossauros Raros">
+
+Uma vez garantidos, seus dinossauros raros devem ser devidamente treinados e aprimorados para desbloquear seu verdadeiro potencial de combate. O sistema de progressão permite que você suba o nível de suas criaturas, desbloqueie habilidades ativas únicas e, eventualmente, as evolua para formas mais poderosas.
+
+Falhar em aprimorar seu elenco o deixará com pouco poder ao enfrentar chefes de fim de jogo e desafios de caça de alto nível. Foque seus recursos de forma eficiente para construir uma equipe equilibrada e poderosa.
+
+<Checklist
+  id="upgrade-progression"
+  title="Marcos de Progressão do Dinossauro:"
+  items={[
+    "Alcançar o nível base máximo no seu dinossauro raro principal",
+    "Desbloquear todos os três slots de habilidades de sinergia passiva",
+    "Coletar os catalisadores de evolução necessários de chefes de bioma",
+    "Evoluir sua criatura para seu próximo estágio evolutivo",
+    "Equipar placas de armadura de alto nível e equipamento de sela tática"
+  ]}
+/>
+
+O aprimoramento requer uma variedade de recursos coletados ao longo de suas aventuras. Gerenciar esses recursos cuidadosamente evita gargalos que podem travar sua progressão.
+
+| Estágio de Aprimoramento | Recurso Necessário | Aumento de Poder | Classificação de Prioridade |
+|---|---|---|---|
+| **Nivelamento 1-20** | Ração Básica para Dino | Moderado | ★★★★★ |
+| **Desbloqueio de Habilidade** | Cristais de Mutação | Alto | ★★★★ |
+| **Evolução** | Essência Primordial | Massivo | ★★★★★ |
+| **Ajuste de Equipamento** | Sucata de Titânio | Alto | ★★★ |
+
+<Callout type="info" title="Dica de Recurso">
+Priorize gastar sua Essência Primordial em dinossauros Lendários de Nível S primeiro. Evoluir um dinossauro Épico é útil, mas o aumento bruto de poder de um Lendário evoluído é incomparável no conteúdo de alto nível.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhores Composições de Equipe para Conteúdo de Fim de Jogo">
+
+Construir uma equipe coesa é crucial para enfrentar as caçadas mais difíceis do jogo. Uma composição de equipe adequada equilibra a saída de dano bruto, a sobrevivência defensiva e as habilidades de utilidade, como rastreamento e cura. Usar uma equipe de três causadores de dano puro pode funcionar nos biomas iniciais, mas levará rapidamente ao fracasso em zonas de alto risco.
+
+Ao estruturar sua equipe, sempre designe um dinossauro líder claro que forneça um bônus de sinergia passiva para o restante do elenco.
+
+| Arquétipo de Equipe | Líder Primário | Unidades de Suporte | Classificação de Sinergia |
+|---|---|---|---|
+| **Potência de DPS** | T-Rex | Raptor Prime, Pirossauro | ★★★★★ |
+| **Sobrevivência Equilibrada** | Espinossauro | Raptor de Gelo, Mamute | ★★★★ |
+| **Farm de Velocidade** | Raptor Prime | Shadow Stalker, Carnotauro | ★★★★ |
+
+<Callout type="success" title="Bônus de Sinergia">
+Combinar dinossauros da mesma zona de bioma concede um bônus adicional de 10% na velocidade de movimento e resistência a riscos, tornando as equipes regionais altamente eficazes para corridas de farm direcionadas.
+</Callout>
+
+Experimente diferentes combinações para encontrar um estilo de jogo que se adapte às suas armas preferidas. Por exemplo, um conjunto de armas focado em congelamento combina excepcionalmente bem com dinossauros que causam dano bônus a alvos lentos ou congelados.
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+Para ajudá-lo a aproveitar ao máximo suas aventuras de caça, compilamos respostas para as perguntas mais comuns sobre encontrar, capturar e gerenciar dinossauros raros.
+
+<FAQ items={[
+  {
+    question: "Os dinossauros raros de dino hunters surgem com mais frequência à noite?",
+    answer: "Sim, certas espécies noturnas têm taxas de surgimento significativamente aumentadas durante o ciclo noturno, enquanto outras aparecem apenas durante eventos climáticos específicos, como chuva forte ou tempestades de areia."
+  },
+  {
+    question: "Posso trocar dinossauros raros capturados com outros jogadores?",
+    answer: "A troca é suportada através do hub de trocas seguro na cidade principal. Certifique-se de que ambos os jogadores confirmem os parâmetros da troca antes de finalizar a transação para evitar a perda de criaturas valiosas."
+  },
+  {
+    question: "O que acontece se um dinossauro raro derrotar minha equipe durante uma caçada?",
+    answer: "Se sua equipe for derrotada, você será teletransportado de volta para o acampamento mais próximo. O dinossauro alvo permanecerá na área por um tempo limitado antes de desaparecer, dando-lhe mais uma chance de reengajar."
+  },
+  {
+    question: "Como faço para aumentar minha taxa de sucesso de captura geral?",
+    answer: "Você pode aumentar permanentemente sua taxa de sucesso de captura aprimorando suas habilidades de rastreamento na árvore do hub principal e utilizando armadilhas de alto nível e arpões de atordoamento durante a fase de captura."
+  }
+]} />
+
+<Callout type="tip" title="Mantenha-se Atualizado">
+Fique de olho nos anúncios oficiais da comunidade e nas notas de atualização, pois os locais de surgimento, tabelas de raridade e parâmetros de equilíbrio dos dinossauros são ajustados frequentemente em atualizações semanais.
+</Callout>
+
+</Section>

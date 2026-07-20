@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "dinosaurs": "Dinossauros",
+    "weapons": "Armas",
+    "progression": "Progressão",
+    "downloads": "Downloads",
+    "mobile": "Móvel"
+  }
+}

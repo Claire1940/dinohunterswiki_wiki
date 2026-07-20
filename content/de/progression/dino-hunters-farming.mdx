@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dino Hunters Farming: 2026 Fortschritts- & Ressourcen-Leitfaden",
+  description: "Optimieren Sie Ihre Farming-Routen in Dino Hunters. Meistern Sie Dinosaurier-Upgrades, Ressourcenmanagement und Teambuilding-Strategien in diesem Leitfaden für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farming+and+Progression+Guide",
+  date: "2026-07-20",
+  author: "Dino Hunters Wiki-Team",
+  keywords: "Dino Hunters, Farming, Fortschritt, Ressourcen, Guide, Dinosaurier Upgrades, Team-Synergie"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Primäres Farming**: Zielen Sie auf ertragreiche Zonen ab, um die Gewinnungsraten von Ressourcen und Dinosauriern zu maximieren.
+- **Upgrade-Priorität**: Konzentrieren Sie Ihre Ressourcen strikt auf S-Tier- und A-Tier-Dinosaurier, um Materialverschwendung zu vermeiden.
+- **Team-Synergie**: Stellen Sie ausgewogene Teams aus Schadensverursachern und Utility-Einheiten zusammen, um Zonen schneller abzuschließen.
+- **Routen-Optimierung**: Folgen Sie etablierten Farming-Routen, um die Ausfallzeiten zwischen den Spawn-Zyklen zu minimieren.
+</Callout>
+
+<Section icon={Map} title="Farming-Zonen und Kartennavigation">
+
+Effizientes Farming in Dino Hunters erfordert ein tiefes Verständnis des Spielwelt-Layouts und der Spawn-Mechaniken. Verschiedene Regionen bieten unterschiedliche Ressourcen, Dinosaurier-Typen und Schwierigkeitsgrade. Um Ihre Zeit bestmöglich zu nutzen, müssen Sie Ihre aktuelle Teamstärke mit der entsprechenden Farming-Zone abstimmen. Das Vorwagen in hochstufige Gebiete führt zu langsamen Abschlusszeiten, während das Verweilen in niedrigstufigen Gebieten abnehmende Erträge liefert.
+
+Jede Zone verfügt über spezifische Spawn-Knoten, an denen Dinosaurier und Ressourcen in festgelegten Intervallen wieder erscheinen. Das Einprägen dieser Orte ermöglicht es Ihnen, einen kontinuierlichen Kreislauf zu etablieren und Leerlaufzeiten zu minimieren. Indem Sie die Spawn-Punkte rotierend ablaufen, stellen Sie einen stetigen Fluss an Erfahrung und Materialien sicher, um Ihren Kader zu verstärken.
+
+| Region | Schwierigkeit | Primäre Ressourcen | Spawn-Rate | Abschluss-Priorität |
+| :--- | :--- | :--- | :--- | :--- |
+| Start-Dschungel | Anfänger | Basis-Kräuter, Gewöhnliche Knochen | Schnell (1-2 Min.) | Niedrig (Nur früher Fortschritt) |
+| Uraltes Tal | Fortgeschritten | Seltenes Erz, Mittelklassige Fossilien | Mittel (3-5 Min.) | Mittel (Gut zum Leveln) |
+| Vulkanrücken | Profi | Obsidiansplitter, Epische Schuppen | Langsam (8-10 Min.) | Hoch (Kern-Endgame-Farming) |
+| Gefrorene Tundra | Experte | Gletscherkristalle, Legendäre DNA | Sehr langsam (15+ Min.) | Maximal (Endgame-Optimierung) |
+
+Die Optimierung Ihrer Route innerhalb dieser Regionen ist entscheidend. Im Vulkanrücken beispielsweise macht die hohe Konzentration an Obsidiansplittern diesen Ort zum erstklassigen Punkt für Waffen-Upgrades. Aufgrund der Umweltgefahren und aggressiven Dinosaurier-Spawns müssen Sie jedoch ein sehr widerstandsfähiges Team mitbringen. Erledigen Sie immer die umstehenden kleineren Mobs, bevor Sie Elite-Ziele angreifen, um während Ihres Farming-Runs nicht überwältigt zu werden.
+
+<Callout type="tip" title="Profi-Farming-Tipp">
+Priorisieren Sie immer Zonen, in denen Ihr Team Mobs in unter dreißig Sekunden besiegen kann. Schnelle, wiederholte Abschlüsse in einer mittelschweren Zone liefern deutlich mehr Ressourcen pro Stunde als das mühsame Kämpfen durch eine einzelne hochstufige Begegnung.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dinosaurier-Farming und Fangtaktiken">
+
+Das Fangen und Farmen von Dinosauriern ist der Kernkreislauf des Spiels. Um ein wettbewerbsfähiges Team aufzubauen, müssen Sie verstehen, welche Kreaturen Ihre Zeit und Ressourcen wert sind. Dinosaurier sind in verschiedene Klassen unterteilt, von denen jede eine einzigartige Rolle im Kampf und in der Farming-Effizienz spielt. Die Konzentration auf hochwertige Ziele gewährleistet einen schnellen Fortschritt.
+
+Bewerten Sie bei der Jagd immer den Rang des Ziels und seinen potenziellen Beitrag zu Ihrer Team-Synergie. S-Tier- und A-Tier-Dinosaurier sollten immer sofort gefangen werden, während Kreaturen niedrigerer Ränge primär für Extraktionsmaterialien oder als Upgrade-Futter gefarmt werden können.
+
+| Dinosaurier-Klasse | Tier | Schlüsselfähigkeit | Farm-Priorität | Kampfrolle |
+| :--- | :--- | :--- | :--- | :--- |
+| Tyrannosaurus | S | Zermalmender Biss (Rüstungsdurchdringung) | Maximal | Primärer physischer DPS |
+| Triceratops | A | Wächterschild (Flächen-Spott) | Hoch | Haupt-Tank / Massenkontrolle |
+| Velociraptor | A | Schneller Schlag (Hohe Krit-Rate) | Hoch | Einzelziel-Assassine |
+| Pterodactyl | B | Luftaufklärung (Tempo-Buff) | Mittel | Unterstützer / Buffer |
+| Stegosaurus | B | Schwanzhieb (Flächen-Rückstoß) | Mittel | Neben-Tank / Störer |
+| Parasaurolophus | C | Heilungsecho (Lebensregeneration) | Niedrig | Frühphasen-Heiler |
+
+Um diese Kreaturen effizient zu fangen, müssen Sie je nach Fortschrittsphase spezifische Taktiken anwenden. Wenn Sie Ihren Fokus zu sehr auf alle Klassen verteilen, verlangsamt dies Ihr allgemeines Machtwachstum.
+
+<CardGrid cols={3}>
+  <Card title="Frühphasen-Taktiken">
+    - **Fokus auf Tanks**: Fangen Sie frühzeitig einen zuverlässigen Tank wie den Triceratops.
+    - **Ressourcenschonung**: Vermeiden Sie den Einsatz von Premium-Fanggegenständen bei C-Tier-Kreaturen.
+    - **Leveln**: Nutzen Sie den Start-Dschungel, um Ihr erstes Fangteam schnell aufzustufen.
+  </Card>
+  <Card title="Mittlere Spiel-Optimierung">
+    - **DPS-Einheiten anvisieren**: Farmen Sie Velociraptoren, um den Gesamtschaden Ihres Teams zu erhöhen.
+    - **Synergie-Aufbau**: Beginnen Sie damit, Ihre Tanks mit Buffern zu kombinieren, um härtere Zonen zu meistern.
+    - **Material-Farming**: Extrahieren Sie Dinosaurier niedrigerer Stufen, um Upgrade-Materialien anzuhäufen.
+  </Card>
+  <Card title="Endspiel-Meisterschaft">
+    - **Legendäre Jagden**: Konzentrieren Sie sich vollständig auf S-Tier-Spawns im Vulkanrücken und in der Gefrorenen Tundra.
+    - **Perfekte Merkmale**: Farmen Sie wiederholt dieselbe Spezies, um nach optimalen Statuswerten zu suchen.
+    - **Maximale Upgrades**: Investieren Sie Ihre angesammelten Ressourcen vollständig in Ihre drei besten Einheiten.
+  </Card>
+</CardGrid>
+
+Bei hochstufigen Jagden ist die Vorbereitung der Schlüssel. Stellen Sie sicher, dass Ihr aktiver Kader vollständig geheilt ist und Ihr Inventar mit den entsprechenden Fanggeräten bestückt ist, bevor Sie den Kampf einleiten.
+
+<Callout type="warning" title="Kampf-Warnung">
+Hochstufige Dinosaurier im Vulkanrücken und in der Gefrorenen Tundra besitzen mächtige AoE-Angriffe, die unvorbereitete Teams auslöschen können. Weichen Sie immer den roten Bodenmarkierungen aus, um massiven Schaden zu vermeiden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fortschritts- und Upgrade-Pfade">
+
+Das Upgraden Ihrer Dinosaurier ist der direkteste Weg, um Ihre Kampfstärke und Farming-Effizienz zu steigern. Ressourcen sind jedoch knapp, und ineffiziente Ausgaben können Ihren Fortschritt erheblich bremsen. Das Befolgen eines strukturierten Upgrade-Pfades stellt sicher, dass jedes ausgegebene Material direkt zum Erfolg Ihres Teams beiträgt.
+
+Um Ihre Effizienz zu maximieren, folgen Sie diesen sequenziellen Schritten bei der Verwaltung Ihres Kaders.
+
+<Steps>
+  <Step num="1" title="Sichern Sie Ihren Kern-Kader">
+    Bevor Sie massiv in Upgrades investieren, stellen Sie sicher, dass Sie ein ausgewogenes Team haben, das aus mindestens einem Tank, einem primären Schadensverursacher und einem Utility-Unterstützer besteht. Verschwenden Sie keine kostbaren Materialien für temporäre Einheiten, die Sie bald ersetzen wollen.
+  </Step>
+  <Step num="2" title="Upgrade-Materialien zuweisen">
+    Konzentrieren Sie Ihre primären Upgrade-Ressourcen zuerst auf Ihren Haupt-Schadensverursacher. Hoher Schaden ermöglicht schnellere Abschlusszeiten, was wiederum Ihre Ressourcen-Sammelrate beschleunigt. Halten Sie Ihren Tank nur so weit verbessert, dass er Standard-Begegnungen überlebt.
+  </Step>
+  <Step num="3" title="Schlüsseleinheiten entwickeln">
+    Sobald ein Kern-Dinosaurier seine Maximalstufe erreicht hat, sammeln Sie die notwendigen Entwicklungsmaterialien. Die Entwicklung schaltet mächtige neue passive Fähigkeiten frei und erhöht die Basiswerte erheblich, was den Übergang in höherstufige Farming-Zonen ermöglicht.
+  </Step>
+  <Step num="4" title="Team-Synergie optimieren">
+    Verfeinern Sie Ihr Team, indem Sie unterstützende passive Fähigkeiten verbessern und hochstufige Ausrüstung anlegen. Konzentrieren Sie sich in dieser Phase auf die Maximierung von Stat-Synergien, wie etwa die Kombination von Krit-Treffer-Buffs mit Schadensverursachern mit hoher Geschicklichkeit.
+  </Step>
+</Steps>
+
+Zu verstehen, welche Ressourcen man anvisieren sollte und wo man sie findet, ist essenziell für eine stetige Fortschrittskurve. Nutzen Sie die folgende Ressourcen-Matrix, um Ihre täglichen Farming-Routen zu planen.
+
+| Ressourcentyp | Primäre Quelle | Upgrade-Fokus | Effizienz-Bewertung |
+| :--- | :--- | :--- | :--- |
+| Uralte Knochen | Dschungel & Tal | Basis-Leveling | ★★★★☆ (Essenziell im frühen Spiel) |
+| Gehärtete Schuppen | Vulkanrücken | Verteidigungs-Upgrades | ★★★☆☆ (Nischen-Nutzen) |
+| Urkristalle | Gefrorene Tundra | Fähigkeits-Entwicklung | ★★★★★ (Kritisch im Endspiel) |
+| Obsidiansplitter | Vulkanrücken | Waffenherstellung | ★★★★☆ (Hoher Offensiv-Boost) |
+
+Indem Sie Ihre Farming-Ziele auf Ihre unmittelbaren Fortschrittsziele abstimmen, vermeiden Sie die Anhäufung überschüssiger minderwertiger Materialien, während Ihnen kritische Entwicklungsgegenstände fehlen.
+
+<Callout type="success" title="Fortschritts-Erfolg">
+Die Priorisierung der Waffen-Upgrades Ihres primären DPS-Einheit kann Ihre Farming-Geschwindigkeit um bis zu vierzig Prozent steigern, sodass Sie ertragreiche Zonen mit minimaler Ausfallzeit klären können.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Teambuilding und Farming-Loadouts">
+
+Das Erstellen eines hochgradig synchronisierten Teams ist der letzte Schritt zur Meisterung des Farming-Kreislaufs. Ein gut konstruiertes Loadout ermöglicht es Ihnen, Inhalte anzugehen, die sonst für Ihr aktuelles Level zu schwierig wären. Achten Sie beim Aufbau Ihres Teams auf komplementäre Fähigkeiten, die die Schwächen der anderen abdecken.
+
+Beispielsweise stellt die Paarung eines Tanks mit hoher Bedrohungserzeugung mit einem zerbrechlichen, schadenstarken Assassinen sicher, dass Ihr Schadensverursacher maximalen DPS liefern kann, ohne direkte Treffer einzustecken. Darüber hinaus kann die Einbindung von Unterstützungseinheiten, die Tempo- oder Angriffs-Buffs bieten, Ihre Abschlusszeiten drastisch verkürzen.
+
+| Team-Archetyp | Kern-Dinosaurier | Hauptvorteil | Abschluss-Geschwindigkeit |
+| :--- | :--- | :--- | :--- |
+| Offensiver Ansturm | T-Rex, Velociraptor, Pterodactyl | Maximaler Schaden, hohe Krit-Chance | Schnell (Exzellent für Low-Level-Farming) |
+| Ausgewogenes Überleben | Triceratops, T-Rex, Stegosaurus | Hohe Überlebensfähigkeit, stetige Abschlüsse | Mittel (Bestens für den Fortschritt) |
+| Defensive Mauer | Triceratops, Stegosaurus, Ankylosaurus | Nahezu unbesiegbar, hohe Massenkontrolle | Langsam (Ideal für herausfordernde Bosse) |
+
+Um ein stetiges Fortschrittstempo beizubehalten, erstellen Sie eine tägliche Checkliste mit Zielen. Dies stellt sicher, dass Sie konsequent die notwendigen Materialien sammeln, um Ihr Team zu verbessern.
+
+<Checklist
+  id="daily-farming-goals"
+  title="Tägliche Farming-Meilensteine:"
+  items={[
+    "Schließen Sie drei ertragreiche Ressourcenknoten im Vulkanrücken ab",
+    "Fangen Sie mindestens zwei Dinosaurier der Selten-Stufe zur Materialgewinnung",
+    "Schließen Sie alle täglichen Kopfgeldjagden für Bonuswährung ab",
+    "Verbessern Sie mindestens eine Kernfähigkeit Ihres primären Schadensverursachers",
+    "Absolvieren Sie einen vollständigen Rundgang der Spawn-Route im Uralten Tal"
+  ]}
+/>
+
+Überprüfen Sie regelmäßig die Leistung Ihres Teams während der Farming-Runs. Wenn Ihre Einheiten häufig sterben, tauschen Sie eine offensive Einheit gegen einen defensiven Unterstützer aus. Wenn Ihre Runs hingegen zu lange dauern, erhöhen Sie Ihre offensiven Kapazitäten.
+
+<Callout type="info" title="Konfigurationshinweis">
+Passen Sie Ihre Teamzusammensetzung basierend auf den spezifischen Resistenzen der Dinosaurier in Ihrer Ziel-Farming-Zone an. Das Mitbringen von feuerresistenten Einheiten in den Vulkanrücken erhöht beispielsweise Ihre Überlebensrate erheblich.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+Um Ihnen zu helfen, das Beste aus Ihrer Fortschrittsreise herauszuholen, haben wir Antworten auf die häufigsten Fragen zum Sammeln von Ressourcen und zur Team-Optimierung zusammengestellt.
+
+<FAQ items={[
+  {
+    question: "Was ist der effizienteste Weg, um mit dem Dino Hunters Farming zu beginnen?",
+    answer: "Beginnen Sie damit, sich auf die Zone 'Uraltes Tal' zu konzentrieren. Sie bietet die beste Balance zwischen Schwierigkeit und Ressourcenertrag für fortschreitende Spieler. Bauen Sie ein Team mit mindestens einem zuverlässigen Tank und einem starken Schadensverursacher auf, um schnelle und sichere Abschlüsse zu gewährleisten."
+  },
+  {
+    question: "Sollte ich jeden gefangenen Dinosaurier upgraden?",
+    answer: "Nein. Ressourcen sind begrenzt. Sie sollten Upgrade-Materialien nur in S-Tier- und A-Tier-Dinosaurier investieren, die in Ihre langfristige Teamzusammensetzung passen. Heben Sie Einheiten niedrigerer Stufen für die Materialextraktion auf."
+  },
+  {
+    question: "Wie oft erscheinen hochstufige Ressourcenknoten neu?",
+    answer: "Die Spawn-Timer variieren je nach Zone. Basis-Knoten im Start-Dschungel erscheinen in weniger als zwei Minuten neu, während seltene Obsidian- und Kristallknoten in Endspiel-Zonen wie dem Vulkanrücken bis zu zehn Minuten benötigen können."
+  },
+  {
+    question: "Ist es besser, solo oder in einer Gruppe zu farmen?",
+    answer: "Farming in einer Gruppe wird für hochstufige Zonen wie die Gefrorene Tundra dringend empfohlen. Das Gruppenspiel ermöglicht es Ihnen, Elite-Dinosaurier viel schneller zu besiegen, was Ihren stündlichen Ressourcenertrag deutlich erhöht."
+  }
+]} />
+
+<Callout type="tip" title="Abschließender Rat">
+Beständigkeit ist der Schlüssel zur Meisterung des Farming-Kreislaufs. Bleiben Sie bei Ihren täglichen Routen, verwalten Sie Ihre Ressourcen sorgfältig und priorisieren Sie die Upgrades Ihres Kernteams, um der Fortschrittskurve immer einen Schritt voraus zu sein.
+</Callout>
+
+</Section>

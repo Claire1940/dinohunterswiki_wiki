@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Dino Hunters Guide: 2026 Fortschritt & Waffen-Rankings",
+  description: "Meistere die Wildnis mit unserem Dino Hunters Guide. Erfahre alles über Dinosaurier-Rankings, Waffen-Upgrade-Pfade und fortgeschrittene Jagdstrategien für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a2e1a/fff?text=Dino+Hunters+Progression+Guide",
+  date: "2026-07-20",
+  author: "Dino Hunters Wiki-Team",
+  keywords: "Dino Hunters, Guide, Tipps, Dinosaurier Ranking, Waffen Upgrades, 2026"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Dino Hunters Guide**: Konzentriere dich auf den Kern-Loop: Aufspüren, Fangen und Verbessern deiner Dinosaurier-Sammlung.
+- **Waffen-Priorität**: Investiere frühe Ressourcen in Gewehre mit hoher Reichweite, um erlittenen Schaden während der Jagd zu minimieren.
+- **Dinosaurier-Stufen**: Priorisiere legendäre S-Tier-Dinosaurier für Boss-Begegnungen und die Erkundung hochstufiger Karten.
+- **Ressourcen-Management**: Spare seltene Upgrade-Materialien für Evolutionen im Late-Game auf, anstatt sie für gewöhnliche Kreaturen im Early-Game zu verschwenden.
+- **Tägliche Belohnungen**: Überprüfe täglich das Einlösezentrum auf aktive Codes, um dein Gold und deine Erfahrungspunkte zu steigern.
+</Callout>
+
+<Section icon={Map} title="Dino Hunters Guide: Erste Schritte in der Wildnis">
+
+Der Einstieg in die prähistorische Welt erfordert ein solides Verständnis der Umgebung und der zur Verfügung stehenden Werkzeuge. Dieser **Dino Hunters Guide** soll dich von einem Anfänger-Spurenleser zu einem legendären Jäger machen, indem er deine Entscheidungen im frühen Spiel optimiert. Der primäre Gameplay-Loop dreht sich um das Erkunden verschiedener Biome, das Identifizieren wertvoller Ziele und den Einsatz spezifischer Waffen, um diese zu fangen oder zu besiegen.
+
+In der Anfangsphase sollte dein Fokus auf der Vertrautheit mit der Karte liegen. Verschiedene Dinosaurier erscheinen in spezifischen Regionen, und das Verständnis dieser „Spawn-Zonen“ ist entscheidend für effizientes Farming. Neue Spieler machen oft den Fehler, ziellos umherzuwandern; stattdessen solltest du gezielt niedrigstufige Zonen ansteuern, um dein erstes Team aufzubauen und Basisressourcen wie Fleisch und Haut zu sammeln.
+
+| Startausrüstung | Schadensausstoß | Reichweite | Mobilität | Bester Einsatzbereich |
+| :--- | :--- | :--- | :--- | :--- |
+| **Basis-Gewehr** | Mittel | ★★★★☆ | Niedrig | Präzisionsschüsse auf Distanz |
+| **Jagdbogen** | Niedrig | ★★★☆☆ | Hoch | Hit-and-Run-Taktiken |
+| **Schwere Falle** | N/A | ★☆☆☆☆ | Sehr Niedrig | Fangen schneller Ziele |
+| **Eisenmesser** | Hoch | ★☆☆☆☆ | Mittel | Nahkampfverteidigung im Notfall |
+
+<Callout type="tip" title="Profi-Tipp">
+Trage immer mindestens zwei verschiedene Waffentypen bei dir. Ein Langstreckengewehr für den Fernkampf und einen schnell reagierenden Bogen oder eine Nahkampfwaffe für den Fall, dass Dinosaurier unerwartet die Distanz verringern.
+</Callout>
+
+Bevor du dich in tiefe Dschungel-Biome wagst, stelle sicher, dass dein Inventar mit Heilgegenständen gefüllt ist. Die Schwierigkeitskurve in Dino Hunters steigt deutlich an, sobald du die Startwiesen verlässt. Unvorbereitet zu sein, kann zu Ressourcenverlust und Rückschritten führen.
+
+</Section>
+
+<Section icon={Trophy} title="Dinosaurier-Tier-Liste und Sammlungsstrategie">
+
+Nicht alle Dinosaurier sind gleich erschaffen. Um ein schlagkräftiges Team aufzubauen, muss man wissen, welche Kreaturen die beste Rendite für die investierte Zeit bieten. Dieser Abschnitt bewertet die begehrtesten Dinosaurier basierend auf ihrem Kampfnutzen, ihrer Seltenheit und ihrem Upgrade-Potenzial. Das Sammeln eines ausgewogenen Teams aus Angreifern, Tanks und Utility-Kreaturen ist der Schlüssel zum Überleben bei hochstufigen Boss-Begegnungen.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Tyrannosaurus">
+    - **Höchster Rohschaden**
+    - Massiver Lebenspool
+    - Unerlässlich für Late-Game-Bosse
+  </Card>
+  <Card title="A-Tier: Velociraptor">
+    - **Unglaubliche Geschwindigkeit**
+    - Hohe kritische Trefferrate
+    - Perfekt für schnelles Ressourcen-Farming
+  </Card>
+  <Card title="B-Tier: Triceratops">
+    - **Überlegene Verteidigung**
+    - Rückstoß-Fähigkeiten
+    - Ideal zum Tanken schwerer Treffer
+  </Card>
+</CardGrid>
+
+Achte beim Aufbau deiner Sammlung auf die Farben der Seltenheit: Grau (Gewöhnlich), Grün (Ungewöhnlich), Blau (Selten), Lila (Episch) und Gold (Legendär). Obwohl es verlockend ist, jeden gefangenen Dinosaurier zu verbessern, solltest du deine begrenzten Upgrade-Materialien auf Kreaturen der blauen Stufe und höher konzentrieren.
+
+| Dinosaurier-Typ | Seltenheitsgrad | Erscheinungsrate | Fangschwierigkeit | Hauptrolle |
+| :--- | :--- | :--- | :--- | :--- |
+| **Gallimimus** | Gewöhnlich | 65% | Sehr Einfach | Basis-Ressourcen-Farming |
+| **Ankylosaurus** | Selten | 15% | Mittel | Defensiver Support |
+| **Spinosaurus** | Episch | 5% | Schwer | Schwerer Frontline-DPS |
+| **Giganotosaurus** | Legendär | 1% | Extrem | Ultimativer Boss-Killer |
+
+<Callout type="success" title="Sammlungs-Bonus">
+Das Vervollständigen bestimmter Sets in deinem Dinosaurier-Journal gewährt permanente Stat-Boosts, wie erhöhte Bewegungsgeschwindigkeit oder höhere Gold-Drops aus allen Quellen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffen-Upgrades und Fortschrittspfad">
+
+Dein Überleben hängt vollständig von der Qualität deiner Ausrüstung ab. Der Waffenfortschritt in Dino Hunters ist linear, erfordert jedoch erhebliche Ressourceninvestitionen. Das Upgrade einer Waffe erhöht nicht nur ihren Schaden; oft werden dadurch sekundäre Feuermodi oder spezialisierte Munitionsslots freigeschaltet, die für das Ausschalten gepanzerter Dinosaurier unerlässlich sind.
+
+Der Upgrade-Prozess umfasst das Sammeln spezifischer Erze und Monsterteile. Zum Beispiel erfordert die Aufrüstung eines Standardgewehrs zu einem „Gehärteten Stahlgewehr“ Eisenerz und Raptor-Klauen. Überprüfe immer die Upgrade-Bank im Haupt-Hub, um zu sehen, welche Materialien du als Nächstes farmen musst. Dieser gezielte Farming-Ansatz verhindert Zeitverschwendung und stellt sicher, dass du immer das passende Power-Level für deine aktuelle Zone hast.
+
+<Steps>
+  <Step num="1" title="Ressourcensammlung">
+    Sammle Basis-Erze und Dinosaurier-Drops in den Startzonen, um deine ersten Upgrades zu finanzieren.
+  </Step>
+  <Step num="2" title="Zugang zur Werkbank">
+    Suche den Schmied im zentralen Hub auf, um den Upgrade-Baum für deine ausgerüsteten Waffen einzusehen.
+  </Step>
+  <Step num="3" title="Stat-Priorisierung">
+    Konzentriere dich zuerst auf **Schaden** und **Nachladegeschwindigkeit**. Stabilität und Reichweite sind für die meisten Early-Game-Begegnungen zweitrangig.
+  </Step>
+  <Step num="4" title="Elementar-Infusion">
+    Füge deinen Waffen im Late-Game Feuer- oder Gifteffekte hinzu, um die hohen Verteidigungen legendärer Bosse zu umgehen.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Wichtige Warnung">
+Verkaufe keine „Uralten Fragmente“, die du in Truhen findest. Dies sind seltene Late-Game-Materialien, die für die letzte Stufe der Waffen-Evolutionen benötigt werden und extrem schwer zu farmen sind.
+</Callout>
+
+| Upgrade-Stufe | Erforderliches Level | Hauptvorteil | Kosten (Gold) |
+| :--- | :--- | :--- | :--- |
+| **Stufe 1: Verstärkt** | Level 5 | +15% Basisschaden | 500 |
+| **Stufe 2: Taktisch** | Level 15 | +25% Nachladegeschwindigkeit | 2.500 |
+| **Stufe 3: Elite** | Level 30 | +10% Kritische Chance | 10.000 |
+| **Stufe 4: Mythisch** | Level 50 | Elementar-Schadensslot | 50.000 |
+
+</Section>
+
+<Section icon={Target} title="Fortgeschrittene Jagdtaktiken und Boss-Mechaniken">
+
+Sobald du die Grundlagen beherrschst, beginnt die eigentliche Herausforderung mit den Boss-Dinosauriern. Diese gewaltigen Kreaturen haben einzigartige Mechaniken, die mehr als nur rohe Feuerkraft erfordern. Um erfolgreich zu sein, musst du lernen, ihre Angriffsmuster zu lesen und ihre spezifischen Schwächen auszunutzen. Die meisten Bosse haben „telegrafierte“ Angriffe – visuelle Hinweise, die darauf hindeuten, dass ein mächtiger Schlag bevorsteht.
+
+Beispielsweise wird der Elder Rex brüllen und mit den Füßen stampfen, bevor er einen massiven Flächenangriff (AoE) mit seinem Schwanz ausführt. Wenn du diesen Hinweis siehst, kannst du rechtzeitig nach hinten ausweichen und tödlichen Schaden vermeiden. Die Kombination der Fähigkeiten deines Dinosaurier-Teams mit deinem eigenen Waffenfeuer ist der effizienteste Weg, diese Riesen zur Strecke zu bringen. Nutze einen tanky Dinosaurier wie den Triceratops, um die Aggro auf sich zu ziehen, während du aus sicherer Entfernung mit einem Scharfschützengewehr Schaden anrichtest.
+
+| Boss-Name | Haupt-Element | Schwäche | Seltener Drop |
+| :--- | :--- | :--- | :--- |
+| **Frost-Raptor** | Eis | Feuerwaffen | Gefrorene Kralle |
+| **Vulkan-Golem** | Feuer | Wasser/Eis | Magma-Kern |
+| **Sturm-Pteranodon** | Blitz | Bodenangriffe | Elektrische Feder |
+| **Uraltes Alpha** | Neutral | Hoher Krit-Schaden | Alpha-Essenz |
+
+<Callout type="info" title="Boss-Strategie">
+Bosse gehen oft bei 30 % Gesundheit in eine „Wütend“-Phase über. Während dieser Zeit erhöhen sich ihre Geschwindigkeit und ihr Schaden um 50 %. Hebe dir deine ultimativen Fähigkeiten für diesen letzten Abschnitt auf, um den Kampf schnell zu beenden.
+</Callout>
+
+Erkundung ist auch der Schlüssel zum Finden versteckter Bosse. Einige legendäre Kreaturen erscheinen nur unter bestimmten Wetterbedingungen wie Gewittern oder Sandstürmen. Behalte die In-Game-Uhr und die Wettervorhersage-Symbole auf deiner Minikarte im Auge, um diese seltenen Gelegenheiten nicht zu verpassen.
+
+</Section>
+
+<Section icon={Sparkles} title="Aktive Codes und tägliche Checklisten">
+
+Um deinen Fortschritt zu beschleunigen, solltest du immer die kostenlosen Belohnungen der Entwickler nutzen. Diese Codes können erhebliche Boosts für Gold und Erfahrung bieten und neuen Spielern sogar seltene Dinosaurier gewähren. Das Einlösemenü befindet sich normalerweise in den „Einstellungen“ oder unter dem „Belohnungen“-Symbol im Haupt-HUD.
+
+<Checklist
+  id="daily-hunter-tasks"
+  title="Tägliche Jagdziele:"
+  items={[
+    "Löse alle neuen aktiven Codes für kostenlose Boosts ein",
+    "Schließe 3 tägliche Kopfgeldmissionen für zusätzliches Gold ab",
+    "Nimm an mindestens einem Weltboss-Event teil",
+    "Verbessere ein Ausrüstungsteil auf die nächste Unterstufe",
+    "Sammle 50 Rohmaterialien aus der am höchsten freigeschalteten Zone"
+  ]}
+/>
+
+<Callout type="success" title="Bonus für neue Spieler">
+Wenn du gerade erst anfängst, nutze die Anfänger-Codes vom offiziellen Community-Discord, um ein kostenloses „Raptor-Starterpaket“ zu erhalten, das einen Level 5 Velociraptor und 1.000 Gold enthält.
+</Callout>
+
+Aktiv in der Community zu bleiben, ist der beste Weg, um dein Wissen über den **Dino Hunters Guide** auf dem neuesten Stand zu halten. Die Meta ändert sich, wenn neue Dinosaurier hinzugefügt und Waffen-Balances angepasst werden. Regelmäßiges Überprüfen des „Updates“-Tabs im Spiel stellt sicher, dass du immer die effektivsten verfügbaren Strategien des Jahres 2026 nutzt.
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Was ist der schnellste Weg, um in Dino Hunters aufzuleveln?",
+    answer: "Der schnellste Weg zum Levelaufstieg ist das Abschließen von Kopfgeldmissionen und die Teilnahme an Weltboss-Events. Diese bieten deutlich mehr Erfahrungspunkte als das normale Jagen von Monstern."
+  },
+  {
+    question: "Kann ich meine Waffen-Upgrades zurücksetzen, wenn ich einen Fehler mache?",
+    answer: "Nein, Waffen-Upgrades sind permanent. Du kannst Waffen jedoch zerlegen, um etwa 50 % der verwendeten Materialien zurückzuerhalten, die dann für ein anderes Ausrüstungsteil verwendet werden können."
+  },
+  {
+    question: "Wie fange ich einen Dinosaurier, anstatt ihn zu töten?",
+    answer: "Um einen Dinosaurier zu fangen, musst du seine Gesundheit auf unter 20 % senken und dann eine Falle oder ein Fangnetz verwenden. Einige hochstufige Dinosaurier erfordern spezialisierte 'Meisterfallen', um erfolgreich gefangen zu werden."
+  },
+  {
+    question: "Wo finde ich den besten Dino Hunters Guide für Boss-Standorte?",
+    answer: "Der beste Weg, Boss-Standorte zu finden, ist der Reiter 'Karte' in deinem Jäger-Journal, der bekannte Spawn-Punkte für legendäre Kreaturen markiert, sobald du deren Region entdeckt hast."
+  }
+]} />
+
+</Section>

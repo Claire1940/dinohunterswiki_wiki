@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Farm em Dino Hunters: Guia de Progressão e Recursos 2026",
+  description: "Otimize suas rotas de farm em Dino Hunters. Domine o aprimoramento de dinossauros, gestão de recursos e estratégias de equipe neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farming+and+Progression+Guide",
+  date: "2026-07-20",
+  author: "Equipe da Wiki do Dino Hunters",
+  keywords: "dino hunters, farm, progressão, recursos, guia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Farm principal**: Foque em zonas de alto rendimento para maximizar as taxas de aquisição de recursos e dinossauros.
+- **Prioridade de aprimoramento**: Concentre recursos estritamente em dinossauros de nível S e nível A para evitar desperdício de materiais.
+- **Sinergia de equipe**: Monte equipes equilibradas combinando causadores de dano e unidades de utilidade para limpezas mais rápidas.
+- **Otimização de rotas**: Siga rotas de farm estabelecidas para minimizar o tempo de inatividade entre os ciclos de spawn.
+</Callout>
+
+<Section icon={Map} title="Zonas de Farm e Navegação no Mapa">
+
+Farmar eficientemente em Dino Hunters requer um entendimento profundo do layout do mundo do jogo e das mecânicas de spawn. Diferentes regiões oferecem recursos distintos, tipos de dinossauros e escalonamento de dificuldade. Para maximizar seu tempo, você deve alinhar a força atual da sua equipe com a zona de farm apropriada. Aventurar-se em áreas de alto nível cedo demais resulta em tempos de limpeza lentos, enquanto permanecer em áreas de baixo nível gera retornos decrescentes.
+
+Cada zona apresenta nós de spawn específicos onde dinossauros e recursos reaparecem em temporizadores definidos. Memorizar esses locais permite estabelecer um ciclo contínuo, minimizando o tempo de inatividade. Ao rotacionar pelos pontos de spawn, você garante um fluxo constante de experiência e materiais para fortalecer seu elenco.
+
+| Região | Dificuldade | Recursos Principais | Taxa de Spawn | Prioridade de Limpeza |
+| :--- | :--- | :--- | :--- | :--- |
+| Selva Inicial | Iniciante | Ervas Básicas, Ossos Comuns | Rápida (1-2 min) | Baixa (Apenas progressão inicial) |
+| Vale Antigo | Intermediário | Minério Raro, Fósseis Médios | Moderada (3-5 min) | Média (Bom para subir de nível) |
+| Cordilheira Vulcânica | Avançado | Fragmentos de Obsidiana, Escamas Épicas | Lenta (8-10 min) | Alta (Farm principal de fim de jogo) |
+| Tundra Congelada | Especialista | Cristais Glaciais, DNA Lendário | Muito Lenta (15+ min) | Máxima (Otimização de fim de jogo) |
+
+Otimizar sua rota dentro dessas regiões é crucial. Por exemplo, na Cordilheira Vulcânica, a densa concentração de Fragmentos de Obsidiana a torna o local principal para aprimoramentos de armas. No entanto, os perigos ambientais e os spawns agressivos de dinossauros significam que você deve trazer uma equipe altamente resiliente. Sempre limpe os mobs menores ao redor antes de enfrentar alvos de elite para evitar ser sobrecarregado durante suas corridas de farm.
+
+<Callout type="tip" title="Dica de Farm Profissional">
+Sempre priorize zonas onde sua equipe possa limpar mobs em menos de trinta segundos. Limpezas rápidas e repetidas em uma zona intermediária rendem significativamente mais recursos por hora do que lutar em um único encontro de alto nível.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Farm de Dinossauros e Táticas de Captura">
+
+Capturar e farmar dinossauros é o ciclo principal do jogo. Para construir uma equipe competitiva, você deve entender quais criaturas valem seu tempo e recursos. Os dinossauros são divididos em classes distintas, cada uma servindo a um papel único em combate e na eficiência do farm. Focar seus esforços em alvos de alto valor garante uma progressão rápida.
+
+Ao caçar, sempre avalie o nível do alvo e sua contribuição potencial para a sinergia da sua equipe. Dinossauros de nível S e nível A devem ser capturados imediatamente, enquanto criaturas de níveis inferiores podem ser farmadas principalmente para materiais de extração ou comida de aprimoramento.
+
+| Classe do Dinossauro | Nível | Habilidade Chave | Prioridade de Farm | Função em Combate |
+| :--- | :--- | :--- | :--- | :--- |
+| Tiranossauro | S | Mordida Esmagadora (Perfura Defesa) | Máxima | DPS Físico Principal |
+| Tricerátopo | A | Escudo Guardião (Provocação em Área) | Alta | Tanque Principal / Controle de Grupo |
+| Velociraptor | A | Ataque Veloz (Alta Taxa Crítica) | Alta | Assassino de Alvo Único |
+| Pterodátilo | B | Reconhecimento Aéreo (Buff de Velocidade) | Média | Suporte / Buffer |
+| Estegossauro | B | Varredura de Cauda (Repulsão em Área) | Média | Off-Tank / Disruptor |
+| Parassaurolofo | C | Eco de Cura (Regeneração de Vida) | Baixa | Curandeiro de Início de Jogo |
+
+To capture these creatures efficiently, you must employ specific tactics based on your progression stage. Spreading your focus too thin across all classes will slow down your overall power growth.
+
+<CardGrid cols={3}>
+  <Card title="Táticas de Início de Jogo">
+    - **Foco em Tanques**: Capture um tanque confiável como o Tricerátopo logo no início.
+    - **Conservação de Recursos**: Evite usar itens de captura premium em criaturas de nível C.
+    - **Nivelamento**: Use a Selva Inicial para subir o nível da sua equipe de captura inicial rapidamente.
+  </Card>
+  <Card title="Otimização de Meio de Jogo">
+    - **Alvos de Unidades DPS**: Farme Velociraptors para aumentar a produção de dano geral da sua equipe.
+    - **Construção de Sinergia**: Comece a emparelhar seus tanques com buffers para lidar com zonas mais difíceis.
+    - **Farm de Materiais**: Extraia dinossauros de nível inferior para acumular materiais de aprimoramento.
+  </Card>
+  <Card title="Maestria de Fim de Jogo">
+    - **Caçadas Lendárias**: Foque inteiramente em spawns de nível S na Cordilheira Vulcânica e na Tundra Congelada.
+    - **Traços Perfeitos**: Farme repetidamente a mesma espécie para buscar rolagens de atributos ideais.
+    - **Aprimoramentos Máximos**: Comprometa totalmente seus recursos acumulados com suas três melhores unidades.
+  </Card>
+</CardGrid>
+
+Durante caçadas de alto nível, a preparação é fundamental. Certifique-se de que seu elenco ativo esteja totalmente curado e seu inventário abastecido com os dispositivos de captura apropriados antes de iniciar o combate.
+
+<Callout type="warning" title="Aviso de Combate">
+Dinossauros de alto nível na Cordilheira Vulcânica e na Tundra Congelada possuem ataques em área (AoE) poderosos que podem dizimar equipes despreparadas. Sempre desvie dos indicadores vermelhos de telegrafia no chão para evitar danos massivos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Caminhos de Progressão e Aprimoramento">
+
+Aprimorar seus dinossauros é a maneira mais direta de aumentar seu poder de combate e eficiência de farm. No entanto, os recursos são escassos, e gastos ineficientes podem interromper severamente seu progresso. Seguir um caminho de aprimoramento estruturado garante que cada material gasto contribua diretamente para o sucesso da sua equipe.
+
+Para maximizar sua eficiência, siga estes passos sequenciais ao gerenciar a progressão do seu elenco.
+
+<Steps>
+  <Step num="1" title="Garanta sua Equipe Principal">
+    Antes de investir pesadamente em aprimoramentos, certifique-se de ter uma equipe equilibrada consistindo de pelo menos um tanque, um causador de dano principal e um suporte de utilidade. Não desperdice materiais preciosos em unidades temporárias que planeja substituir rapidamente.
+  </Step>
+  <Step num="2" title="Aloque Materiais de Aprimoramento">
+    Foque seus recursos de aprimoramento primários primeiro em seu causador de dano principal. Altos danos permitem tempos de limpeza mais rápidos, o que, por sua vez, acelera sua taxa de coleta de recursos. Mantenha seu tanque aprimorado apenas o suficiente para sobreviver a encontros padrão.
+  </Step>
+  <Step num="3" title="Evolua Unidades Chave">
+    Assim que um dinossauro principal atingir seu limite de nível, reúna os materiais de evolução necessários. A evolução desbloqueia novas habilidades passivas poderosas e aumenta significativamente os atributos base, permitindo a transição para zonas de farm de nível superior.
+  </Step>
+  <Step num="4" title="Otimize a Sinergia da Equipe">
+    Refine sua equipe aprimorando habilidades passivas de suporte e equipando equipamentos de alto nível. Nesta fase, foque em maximizar as sinergias de atributos, como emparelhar buffs de acerto crítico com causadores de dano de alta destreza.
+  </Step>
+</Steps>
+
+Entender quais recursos focar e onde encontrá-los é essencial para manter uma curva de progressão constante. Use a seguinte matriz de recursos para planejar suas rotas diárias de farm.
+
+| Tipo de Recurso | Fonte Principal | Foco de Aprimoramento | Classificação de Eficiência |
+| :--- | :--- | :--- | :--- |
+| Ossos Antigos | Selva e Vale | Nivelamento Base | ★★★★☆ (Essencial no início) |
+| Escamas Endurecidas | Cordilheira Vulcânica | Aprimoramento de Defesa | ★★★☆☆ (Utilidade de nicho) |
+| Cristais Primordiais | Tundra Congelada | Evolução de Habilidade | ★★★★★ (Crítico no fim de jogo) |
+| Fragmentos de Obsidiana | Cordilheira Vulcânica | Criação de Armas | ★★★★☆ (Alto bônus ofensivo) |
+
+Ao alinhar seus alvos de farm com seus objetivos imediatos de progressão, você evita acumular excesso de materiais de baixo nível enquanto fica sem itens críticos de evolução.
+
+<Callout type="success" title="Sucesso na Progressão">
+Priorizar os aprimoramentos de arma da sua unidade de DPS principal pode aumentar sua velocidade de farm em até quarenta por cento, permitindo que você limpe zonas de alto rendimento com o mínimo de tempo de inatividade.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Montagem de Equipe e Loadouts de Farm">
+
+Criar uma equipe altamente sincronizada é o passo final para dominar o ciclo de farm. Um loadout bem construído permite enfrentar conteúdos que, de outra forma, seriam difíceis demais para o seu nível atual. Ao montar sua equipe, procure habilidades complementares que cubram as fraquezas uns dos outros.
+
+Por exemplo, emparelhar um tanque de alta ameaça com um assassino frágil de alto dano garante que seu causador de dano possa produzir o DPS máximo sem receber golpes diretos. Além disso, incorporar unidades de suporte que fornecem bônus de velocidade ou ataque pode reduzir drasticamente seus tempos de limpeza.
+
+| Arquétipo de Equipe | Dinossauros Principais | Vantagem Chave | Velocidade de Limpeza |
+| :--- | :--- | :--- | :--- |
+| Investida Ofensiva | T-Rex, Velociraptor, Pterodátilo | Dano máximo, alta taxa crítica | Rápida (Excelente para farm inicial) |
+| Sobrevivência Equilibrada | Tricerátopo, T-Rex, Estegossauro | Alta sobrevivência, limpezas constantes | Moderada (Melhor para progressão) |
+| Muralha Defensiva | Tricerátopo, Estegossauro, Anquilossauro | Quase invencível, alto controle | Lenta (Ideal para chefes difíceis) |
+
+Para manter um ritmo constante de progressão, estabeleça uma lista de verificação diária de objetivos. Isso garante que você esteja coletando consistentemente os materiais necessários para melhorar sua equipe.
+
+<Checklist
+  id="daily-farming-goals"
+  title="Marcos Diários de Farm:"
+  items={[
+    "Limpar três nós de recursos de alto rendimento na Cordilheira Vulcânica",
+    "Capturar pelo menos dois dinossauros de nível Raro para extração de materiais",
+    "Completar todas as caçadas de recompensa diárias para obter moeda bônus",
+    "Aprimorar pelo menos uma habilidade principal em seu causador de dano principal",
+    "Realizar um circuito completo da rota de spawn do Vale Antigo"
+  ]}
+/>
+
+Revise regularmente o desempenho da sua equipe durante as corridas de farm. Se você notar que suas unidades estão morrendo com frequência, troque uma unidade ofensiva por um suporte defensivo. Por outro lado, se suas corridas estiverem demorando muito, aumente suas capacidades ofensivas.
+
+<Callout type="info" title="Nota de Configuração">
+Ajuste a composição da sua equipe com base nas resistências específicas dos dinossauros em sua zona de farm alvo. Trazer unidades resistentes ao fogo para a Cordilheira Vulcânica, por exemplo, aumenta muito sua taxa de sobrevivência.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Para ajudá-lo a aproveitar ao máximo sua jornada de progressão, compilamos respostas para as perguntas mais comuns sobre coleta de recursos e otimização de equipe.
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais eficiente de começar o farm em Dino Hunters?",
+    answer: "Comece focando na zona do Vale Antigo. Ela oferece o melhor equilíbrio entre dificuldade e rendimento de recursos para jogadores em progressão. Monte uma equipe com pelo menos um tanque confiável e um causador de dano alto para garantir limpezas rápidas e seguras."
+  },
+  {
+    question: "Devo aprimorar todos os dinossauros que capturar?",
+    answer: "Não. Os recursos são limitados. Você deve investir materiais de aprimoramento apenas em dinossauros de nível S e nível A que se encaixem na composição da sua equipe a longo prazo. Guarde as unidades de nível inferior para extração de materiais."
+  },
+  {
+    question: "Com que frequência os nós de recursos de alto nível reaparecem?",
+    answer: "Os temporizadores de spawn variam por zona. Nós básicos na Selva Inicial reaparecem em menos de dois minutos, enquanto nós raros de obsidiana e cristais em zonas de fim de jogo, como a Cordilheira Vulcânica, podem levar até dez minutos para reaparecer."
+  },
+  {
+    question: "É melhor farmar sozinho ou em grupo?",
+    answer: "Farmar em grupo é altamente recomendado para zonas de alto nível como a Tundra Congelada. O jogo em grupo permite derrotar dinossauros de elite muito mais rápido, aumentando significativamente seu rendimento de recursos por hora."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+A consistência é a chave para dominar o ciclo de farm. Atenha-se às suas rotas diárias, gerencie seus recursos com cuidado e priorize os aprimoramentos da sua equipe principal para se manter à frente da curva de progressão.
+</Callout>
+
+</Section>

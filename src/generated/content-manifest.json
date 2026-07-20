@@ -1,1 +1,586 @@
-{}
+{
+  "de": {
+    "codes": [
+      {
+        "slug": "dino-hunters-codes",
+        "file": "dino-hunters-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "dino-hunters-discord",
+        "file": "dino-hunters-discord"
+      },
+      {
+        "slug": "dino-hunters-reddit",
+        "file": "dino-hunters-reddit"
+      },
+      {
+        "slug": "dino-hunters-updates",
+        "file": "dino-hunters-updates"
+      }
+    ],
+    "dinosaurs": [
+      {
+        "slug": "dino-hunters-dinosaur-list",
+        "file": "dino-hunters-dinosaur-list"
+      },
+      {
+        "slug": "dino-hunters-dinosaurs",
+        "file": "dino-hunters-dinosaurs"
+      },
+      {
+        "slug": "dino-hunters-rare-dinosaurs",
+        "file": "dino-hunters-rare-dinosaurs"
+      },
+      {
+        "slug": "dino-hunters-t-rex",
+        "file": "dino-hunters-t-rex"
+      },
+      {
+        "slug": "dino-hunters-triceratops",
+        "file": "dino-hunters-triceratops"
+      }
+    ],
+    "downloads": [
+      {
+        "slug": "dino-hunters-download",
+        "file": "dino-hunters-download"
+      },
+      {
+        "slug": "dino-hunters-online",
+        "file": "dino-hunters-online"
+      },
+      {
+        "slug": "dino-hunters-release-date",
+        "file": "dino-hunters-release-date"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dino-hunters-beginner-guide",
+        "file": "dino-hunters-beginner-guide"
+      },
+      {
+        "slug": "dino-hunters-bosses",
+        "file": "dino-hunters-bosses"
+      },
+      {
+        "slug": "dino-hunters-gameplay",
+        "file": "dino-hunters-gameplay"
+      },
+      {
+        "slug": "dino-hunters-guide",
+        "file": "dino-hunters-guide"
+      },
+      {
+        "slug": "dino-hunters-how-to-get-more-money",
+        "file": "dino-hunters-how-to-get-more-money"
+      },
+      {
+        "slug": "dino-hunters-how-to-level-up-fast",
+        "file": "dino-hunters-how-to-level-up-fast"
+      },
+      {
+        "slug": "dino-hunters-progression-guide",
+        "file": "dino-hunters-progression-guide"
+      },
+      {
+        "slug": "dino-hunters-tips-and-tricks",
+        "file": "dino-hunters-tips-and-tricks"
+      }
+    ],
+    "mobile": [
+      {
+        "slug": "dino-hunters-android",
+        "file": "dino-hunters-android"
+      },
+      {
+        "slug": "dino-hunters-ios",
+        "file": "dino-hunters-ios"
+      },
+      {
+        "slug": "dino-hunters-mobile",
+        "file": "dino-hunters-mobile"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "dino-hunters-eggs",
+        "file": "dino-hunters-eggs"
+      },
+      {
+        "slug": "dino-hunters-farming",
+        "file": "dino-hunters-farming"
+      },
+      {
+        "slug": "dino-hunters-rewards",
+        "file": "dino-hunters-rewards"
+      },
+      {
+        "slug": "dino-hunters-secrets",
+        "file": "dino-hunters-secrets"
+      },
+      {
+        "slug": "dino-hunters-upgrades",
+        "file": "dino-hunters-upgrades"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "dino-hunters-best-weapons",
+        "file": "dino-hunters-best-weapons"
+      },
+      {
+        "slug": "dino-hunters-guns",
+        "file": "dino-hunters-guns"
+      },
+      {
+        "slug": "dino-hunters-hunting-gear",
+        "file": "dino-hunters-hunting-gear"
+      },
+      {
+        "slug": "dino-hunters-weapons",
+        "file": "dino-hunters-weapons"
+      }
+    ]
+  },
+  "en": {
+    "codes": [
+      {
+        "slug": "dino-hunters-codes",
+        "file": "dino-hunters-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "dino-hunters-discord",
+        "file": "dino-hunters-discord"
+      },
+      {
+        "slug": "dino-hunters-reddit",
+        "file": "dino-hunters-reddit"
+      },
+      {
+        "slug": "dino-hunters-updates",
+        "file": "dino-hunters-updates"
+      }
+    ],
+    "dinosaurs": [
+      {
+        "slug": "dino-hunters-dinosaur-list",
+        "file": "dino-hunters-dinosaur-list"
+      },
+      {
+        "slug": "dino-hunters-dinosaurs",
+        "file": "dino-hunters-dinosaurs"
+      },
+      {
+        "slug": "dino-hunters-rare-dinosaurs",
+        "file": "dino-hunters-rare-dinosaurs"
+      },
+      {
+        "slug": "dino-hunters-t-rex",
+        "file": "dino-hunters-t-rex"
+      },
+      {
+        "slug": "dino-hunters-triceratops",
+        "file": "dino-hunters-triceratops"
+      }
+    ],
+    "downloads": [
+      {
+        "slug": "dino-hunters-download",
+        "file": "dino-hunters-download"
+      },
+      {
+        "slug": "dino-hunters-online",
+        "file": "dino-hunters-online"
+      },
+      {
+        "slug": "dino-hunters-release-date",
+        "file": "dino-hunters-release-date"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dino-hunters-beginner-guide",
+        "file": "dino-hunters-beginner-guide"
+      },
+      {
+        "slug": "dino-hunters-bosses",
+        "file": "dino-hunters-bosses"
+      },
+      {
+        "slug": "dino-hunters-gameplay",
+        "file": "dino-hunters-gameplay"
+      },
+      {
+        "slug": "dino-hunters-guide",
+        "file": "dino-hunters-guide"
+      },
+      {
+        "slug": "dino-hunters-how-to-get-more-money",
+        "file": "dino-hunters-how-to-get-more-money"
+      },
+      {
+        "slug": "dino-hunters-how-to-level-up-fast",
+        "file": "dino-hunters-how-to-level-up-fast"
+      },
+      {
+        "slug": "dino-hunters-progression-guide",
+        "file": "dino-hunters-progression-guide"
+      },
+      {
+        "slug": "dino-hunters-tips-and-tricks",
+        "file": "dino-hunters-tips-and-tricks"
+      }
+    ],
+    "mobile": [
+      {
+        "slug": "dino-hunters-android",
+        "file": "dino-hunters-android"
+      },
+      {
+        "slug": "dino-hunters-ios",
+        "file": "dino-hunters-ios"
+      },
+      {
+        "slug": "dino-hunters-mobile",
+        "file": "dino-hunters-mobile"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "dino-hunters-eggs",
+        "file": "dino-hunters-eggs"
+      },
+      {
+        "slug": "dino-hunters-farming",
+        "file": "dino-hunters-farming"
+      },
+      {
+        "slug": "dino-hunters-rewards",
+        "file": "dino-hunters-rewards"
+      },
+      {
+        "slug": "dino-hunters-secrets",
+        "file": "dino-hunters-secrets"
+      },
+      {
+        "slug": "dino-hunters-upgrades",
+        "file": "dino-hunters-upgrades"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "dino-hunters-best-weapons",
+        "file": "dino-hunters-best-weapons"
+      },
+      {
+        "slug": "dino-hunters-guns",
+        "file": "dino-hunters-guns"
+      },
+      {
+        "slug": "dino-hunters-hunting-gear",
+        "file": "dino-hunters-hunting-gear"
+      },
+      {
+        "slug": "dino-hunters-weapons",
+        "file": "dino-hunters-weapons"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "dino-hunters-codes",
+        "file": "dino-hunters-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "dino-hunters-discord",
+        "file": "dino-hunters-discord"
+      },
+      {
+        "slug": "dino-hunters-reddit",
+        "file": "dino-hunters-reddit"
+      },
+      {
+        "slug": "dino-hunters-updates",
+        "file": "dino-hunters-updates"
+      }
+    ],
+    "dinosaurs": [
+      {
+        "slug": "dino-hunters-dinosaur-list",
+        "file": "dino-hunters-dinosaur-list"
+      },
+      {
+        "slug": "dino-hunters-dinosaurs",
+        "file": "dino-hunters-dinosaurs"
+      },
+      {
+        "slug": "dino-hunters-rare-dinosaurs",
+        "file": "dino-hunters-rare-dinosaurs"
+      },
+      {
+        "slug": "dino-hunters-t-rex",
+        "file": "dino-hunters-t-rex"
+      },
+      {
+        "slug": "dino-hunters-triceratops",
+        "file": "dino-hunters-triceratops"
+      }
+    ],
+    "downloads": [
+      {
+        "slug": "dino-hunters-download",
+        "file": "dino-hunters-download"
+      },
+      {
+        "slug": "dino-hunters-online",
+        "file": "dino-hunters-online"
+      },
+      {
+        "slug": "dino-hunters-release-date",
+        "file": "dino-hunters-release-date"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dino-hunters-beginner-guide",
+        "file": "dino-hunters-beginner-guide"
+      },
+      {
+        "slug": "dino-hunters-bosses",
+        "file": "dino-hunters-bosses"
+      },
+      {
+        "slug": "dino-hunters-gameplay",
+        "file": "dino-hunters-gameplay"
+      },
+      {
+        "slug": "dino-hunters-guide",
+        "file": "dino-hunters-guide"
+      },
+      {
+        "slug": "dino-hunters-how-to-get-more-money",
+        "file": "dino-hunters-how-to-get-more-money"
+      },
+      {
+        "slug": "dino-hunters-how-to-level-up-fast",
+        "file": "dino-hunters-how-to-level-up-fast"
+      },
+      {
+        "slug": "dino-hunters-progression-guide",
+        "file": "dino-hunters-progression-guide"
+      },
+      {
+        "slug": "dino-hunters-tips-and-tricks",
+        "file": "dino-hunters-tips-and-tricks"
+      }
+    ],
+    "mobile": [
+      {
+        "slug": "dino-hunters-android",
+        "file": "dino-hunters-android"
+      },
+      {
+        "slug": "dino-hunters-ios",
+        "file": "dino-hunters-ios"
+      },
+      {
+        "slug": "dino-hunters-mobile",
+        "file": "dino-hunters-mobile"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "dino-hunters-eggs",
+        "file": "dino-hunters-eggs"
+      },
+      {
+        "slug": "dino-hunters-farming",
+        "file": "dino-hunters-farming"
+      },
+      {
+        "slug": "dino-hunters-rewards",
+        "file": "dino-hunters-rewards"
+      },
+      {
+        "slug": "dino-hunters-secrets",
+        "file": "dino-hunters-secrets"
+      },
+      {
+        "slug": "dino-hunters-upgrades",
+        "file": "dino-hunters-upgrades"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "dino-hunters-best-weapons",
+        "file": "dino-hunters-best-weapons"
+      },
+      {
+        "slug": "dino-hunters-guns",
+        "file": "dino-hunters-guns"
+      },
+      {
+        "slug": "dino-hunters-hunting-gear",
+        "file": "dino-hunters-hunting-gear"
+      },
+      {
+        "slug": "dino-hunters-weapons",
+        "file": "dino-hunters-weapons"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "dino-hunters-codes",
+        "file": "dino-hunters-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "dino-hunters-discord",
+        "file": "dino-hunters-discord"
+      },
+      {
+        "slug": "dino-hunters-reddit",
+        "file": "dino-hunters-reddit"
+      },
+      {
+        "slug": "dino-hunters-updates",
+        "file": "dino-hunters-updates"
+      }
+    ],
+    "dinosaurs": [
+      {
+        "slug": "dino-hunters-dinosaur-list",
+        "file": "dino-hunters-dinosaur-list"
+      },
+      {
+        "slug": "dino-hunters-dinosaurs",
+        "file": "dino-hunters-dinosaurs"
+      },
+      {
+        "slug": "dino-hunters-rare-dinosaurs",
+        "file": "dino-hunters-rare-dinosaurs"
+      },
+      {
+        "slug": "dino-hunters-t-rex",
+        "file": "dino-hunters-t-rex"
+      },
+      {
+        "slug": "dino-hunters-triceratops",
+        "file": "dino-hunters-triceratops"
+      }
+    ],
+    "downloads": [
+      {
+        "slug": "dino-hunters-download",
+        "file": "dino-hunters-download"
+      },
+      {
+        "slug": "dino-hunters-online",
+        "file": "dino-hunters-online"
+      },
+      {
+        "slug": "dino-hunters-release-date",
+        "file": "dino-hunters-release-date"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "dino-hunters-beginner-guide",
+        "file": "dino-hunters-beginner-guide"
+      },
+      {
+        "slug": "dino-hunters-bosses",
+        "file": "dino-hunters-bosses"
+      },
+      {
+        "slug": "dino-hunters-gameplay",
+        "file": "dino-hunters-gameplay"
+      },
+      {
+        "slug": "dino-hunters-guide",
+        "file": "dino-hunters-guide"
+      },
+      {
+        "slug": "dino-hunters-how-to-get-more-money",
+        "file": "dino-hunters-how-to-get-more-money"
+      },
+      {
+        "slug": "dino-hunters-how-to-level-up-fast",
+        "file": "dino-hunters-how-to-level-up-fast"
+      },
+      {
+        "slug": "dino-hunters-progression-guide",
+        "file": "dino-hunters-progression-guide"
+      },
+      {
+        "slug": "dino-hunters-tips-and-tricks",
+        "file": "dino-hunters-tips-and-tricks"
+      }
+    ],
+    "mobile": [
+      {
+        "slug": "dino-hunters-android",
+        "file": "dino-hunters-android"
+      },
+      {
+        "slug": "dino-hunters-ios",
+        "file": "dino-hunters-ios"
+      },
+      {
+        "slug": "dino-hunters-mobile",
+        "file": "dino-hunters-mobile"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "dino-hunters-eggs",
+        "file": "dino-hunters-eggs"
+      },
+      {
+        "slug": "dino-hunters-farming",
+        "file": "dino-hunters-farming"
+      },
+      {
+        "slug": "dino-hunters-rewards",
+        "file": "dino-hunters-rewards"
+      },
+      {
+        "slug": "dino-hunters-secrets",
+        "file": "dino-hunters-secrets"
+      },
+      {
+        "slug": "dino-hunters-upgrades",
+        "file": "dino-hunters-upgrades"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "dino-hunters-best-weapons",
+        "file": "dino-hunters-best-weapons"
+      },
+      {
+        "slug": "dino-hunters-guns",
+        "file": "dino-hunters-guns"
+      },
+      {
+        "slug": "dino-hunters-hunting-gear",
+        "file": "dino-hunters-hunting-gear"
+      },
+      {
+        "slug": "dino-hunters-weapons",
+        "file": "dino-hunters-weapons"
+      }
+    ]
+  }
+}

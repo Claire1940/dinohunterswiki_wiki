@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jefes de Dino Hunters: Guía de Batalla de Dinosaurios Legendarios",
+  description: "Domina a los jefes de Dino Hunters con nuestra guía de 2026. Aprende estrategias de combate para dinosaurios legendarios, equipamientos de armas y recompensas de botín raro.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Dino+Hunters+Boss+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Dino Hunters",
+  keywords: "dino hunters, jefes, dinosaurios legendarios, guía de batalla, armas, botín"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los jefes de Dino Hunters** representan el desafío definitivo, requiriendo armas mejoradas y composiciones de equipo específicas.
+- **Los dinosaurios legendarios** cuentan con patrones de IA únicos, que incluyen fases de enfurecimiento (enrage) y ataques de área de efecto (AoE).
+- **La preparación** es vital; comprueba siempre la durabilidad de tu armadura y tus niveles de recursos antes de entrar en la arena de un jefe.
+- **La sinergia de equipo** permite a los jugadores equilibrar el daño infligido con la supervivencia durante encuentros de alta intensidad.
+- **Los botines raros** de estos encuentros son esenciales para el progreso en el juego tardío y para evolucionar tu catálogo de dinosaurios.
+</Callout>
+
+<Section icon={Target} title="Identificación de los Jefes de Dino Hunters">
+
+En el mundo de Dino Hunters, no todas las criaturas son un objetivo estándar. El sistema de progresión eventualmente lleva a cada cazador a enfrentarse a entidades masivas con gran cantidad de vida conocidas como Dinosaurios Legendarios. Estos **jefes de Dino Hunters** sirven como guardianes para acceder a nuevos mapas y equipamiento de mayor nivel. A diferencia de los dinosaurios comunes que se encuentran en las zonas de inicio, los jefes tienen barras de salud significativamente más grandes y mecánicas de combate especializadas que pueden pillar desprevenidos a los jugadores que no estén preparados.
+
+Comprender la jerarquía de estas amenazas es el primer paso hacia una caza exitosa. El juego categoriza estos encuentros según la dificultad y la rareza, lo que afecta directamente a la calidad del botín que recibes tras la victoria.
+
+<CardGrid cols={3}>
+  <Card title="Depredadores Alfa">
+    - **Nivel de amenaza**: Medio
+    - **Mecánicas**: Movimiento rápido, combos cuerpo a cuerpo básicos
+    - **Ideal para**: Farmear materiales de mejora de nivel medio
+  </Card>
+  <Card title="Jefes Legendarios">
+    - **Nivel de amenaza**: Extremo
+    - **Mecánicas**: Pisotones en área (AoE), aliento elemental, enfurecimiento (enrage)
+    - **Ideal para**: Desbloquear nuevos diseños de armas
+  </Card>
+  <Card title="Guardianes Ancestrales">
+    - **Nivel de amenaza**: Letal
+    - **Mecánicas**: Múltiples fases, invocación de esbirros
+    - **Ideal para**: Piedras de evolución para el juego tardío
+  </Card>
+</CardGrid>
+
+| Rango de Jefe | Multiplicador de Salud | Daño Causado | Nivel de Rareza |
+|---|---|---|---|
+| **Alfa** | 5 veces la base | Alto | Raro |
+| **Legendario** | 20 veces la base | Masivo | Épico |
+| **Ancestral** | 50 veces la base | Letal | Legendario |
+
+<Callout type="success" title="Consejo de combate">
+Observa siempre a un jefe desde la distancia antes de entablar combate. La mayoría de los **jefes de Dino Hunters** tienen un indicio visual, una animación específica que se reproduce justo antes de lanzar un ataque pesado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipamiento de Armas y Preparación">
+
+Enfrentarse a un jefe con equipamiento básico es una receta para el fracaso. Para derrotar de manera eficiente a los **jefes de Dino Hunters**, debes optimizar tu equipamiento en función de las debilidades específicas del dinosaurio. El juego cuenta con una variedad de armas, que van desde rifles de disparo rápido hasta pesados lanzadores de explosivos. Cada encuentro con un jefe suele favorecer un estilo de combate específico, ya sea el combate a larga distancia (kiting) o el daño explosivo a corta distancia.
+
+Mejorar tu equipo principal de dinosaurios es igualmente importante. En Dino Hunters, tus criaturas recolectadas actúan tanto como tu escudo como tu fuente principal de daño. Asegurarse de que estén evolucionadas y niveladas para coincidir con el rango del jefe es obligatorio para la supervivencia.
+
+| Tipo de Arma | Ideal Para | Estrategia |
+|---|---|---|
+| **Rifles de Francotirador** | Jefes Voladores | Disparos de precisión a larga distancia a las alas |
+| **Escopetas** | Jefes Tanque Pesados | Daño explosivo a corta distancia durante las ventanas de aturdimiento |
+| **Arcos de Energía** | Depredadores Rápidos | Alta movilidad y daño por segundo (DPS) sostenido |
+| **Lanzacohetes** | Jefes en Grupo | Lidiar con jefes que invocan esbirros |
+
+<Steps>
+  <Step num="1" title="Evaluar la Debilidad del Jefe">
+    Consulta la guía de jefes en tu menú para ver si el objetivo es débil a un daño elemental o tipo de arma específico.
+  </Step>
+  <Step num="2" title="Mejorar Equipamiento Principal">
+    Utiliza los recursos recolectados en cazas anteriores para aumentar las estadísticas de daño de tus armas principales.
+  </Step>
+  <Step num="3" title="Acumular Consumibles">
+    Asegúrate de tener suficientes botiquines de salud y potenciadores de resistencia para aguantar al menos 10 minutos de combate continuo.
+  </Step>
+  <Step num="4" title="Coordinar Roles de Equipo">
+    Si juegas en grupo, asigna a un jugador como la "distracción" (Tanque) mientras los demás se concentran en infligir daño.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestión de recursos">
+Nunca gastes todos tus materiales de mejora en un solo arma. Equilibra tu inversión entre tus armas y tu equipo de dinosaurios para asegurarte de no tener un único punto de fallo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Combate Avanzadas">
+
+La profundidad mecánica de los **jefes de Dino Hunters** se vuelve evidente durante la fase de "Enfurecimiento" (Enrage). Cuando un jefe alcanza un determinado umbral de salud (generalmente el 50% o el 25%), su velocidad de ataque aumenta y puede desbloquear habilidades nuevas y más peligrosas. Dominar la mecánica de esquivar marca la diferencia entre una captura exitosa y una derrota total.
+
+El posicionamiento eficaz es clave. La mayoría de los dinosaurios legendarios tienen "puntos ciegos": zonas detrás de sus patas o debajo de sus colas donde sus ataques principales no pueden llegar. Sin embargo, ten cuidado con los "coletazos", que están diseñados específicamente para contrarrestar a los jugadores que se quedan detrás del jefe durante demasiado tiempo.
+
+| Mecánica | Comportamiento del Jefe | Respuesta del Jugador |
+|---|---|---|
+| **Golpe contra el suelo** | El jefe levanta las patas delanteras | Salta o deslízate lejos del anillo de impacto |
+| **Rugido de aturdimiento** | Efecto visual de onda de sonido | Usa equipo resistente al aturdimiento o mantén la distancia |
+| **Carga** | El jefe baja la cabeza y raspa el suelo | Deslízate hacia un lado en el último segundo posible |
+| **Aliento elemental** | Animación de boca brillante | Muévete perpendicularmente a la cabeza del jefe |
+
+<Callout type="tip" title="Estrategia profesional">
+Utiliza el entorno a tu favor. Muchas arenas de jefes tienen pilares o formaciones rocosas que pueden bloquear proyectiles o detener en seco a un dinosaurio que carga, proporcionando una ventana para infligir daño gratuito.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Lugares de Aparición y Rutas de Farmeo">
+
+Encontrar a los **jefes de Dino Hunters** requiere conocer las "Zonas Calientes" del mapa. A diferencia de los dinosaurios estándar que deambulan libremente, los jefes suelen tener puntos de aparición fijos con tiempos de reutilización específicos. Algunas criaturas legendarias solo aparecen durante ciertos eventos del juego o condiciones climáticas, como tormentas eléctricas o por la noche.
+
+Para los jugadores que buscan optimizar su progreso, establecer una ruta de farmeo que rote entre diferentes apariciones de jefes es la forma más eficiente de recolectar materiales de alta gama.
+
+| Zona del Mapa | Nombre del Jefe | Condición de Aparición | Botín Principal |
+|---|---|---|---|
+| **Cráter Volcánico** | Magma Rex | Siempre activo | Esencia de fuego |
+| **Tundra Congelada** | Frost Raptor | Solo de noche | Fragmentos de hielo |
+| **Selva Profunda** | Ancient Spino | Durante la lluvia | Biomateriales |
+| **Dunas del Desierto** | Sand Titan | Específico de evento | Monedas antiguas |
+
+<Checklist
+  id="boss-farming-goals"
+  title="Lista de verificación diaria de jefes:"
+  items={[
+    "Derrota al depredador alfa diario para obtener monedas de bonificación",
+    "Revisa la Selva Profunda para la aparición de Ancient Spino",
+    "Recolecta 10 escamas legendarias para mejoras de armadura",
+    "Ayuda a un compañero de equipo a capturar a un jefe para obtener recompensas sociales",
+    "Supera la arena del Cráter Volcánico dos veces"
+  ]}
+/>
+
+<Callout type="info" title="Temporizadores de aparición">
+Los jefes generalmente tienen un temporizador de reaparición de 15 a 30 minutos. Si una arena está vacía, consulta el reloj del servidor o cambia a una zona de mapa diferente para mantener el ritmo de farmeo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas y Progresión">
+
+Derrotar a los **jefes de Dino Hunters** es la forma principal de avanzar el nivel de poder de tu personaje. Las recompensas se dividen en tres categorías: botín inmediato, puntos de experiencia y hitos de progresión. Los botines legendarios no están garantizados, por lo que a menudo los jugadores necesitan derrotar al mismo jefe varias veces para completar un conjunto de equipo específico.
+
+El sistema de evolución en Dino Hunters depende en gran medida de materiales específicos de jefes. Sin ellos, tus dinosaurios alcanzarán un límite de nivel, lo que te impedirá acceder al contenido del juego tardío.
+
+| Tipo de Recompensa | Descripción | Uso |
+|---|---|---|
+| **Almas de Jefe** | Esencia rara del jefe derrotado | Evolucionar dinosaurios al rango Legendario |
+| **Diseños (Blueprints)** | Diseños de armas raros | Fabricar armas de fuego de alto DPS |
+| **Piedras de Mejora** | Cristales de poder concentrado | Subir de nivel el equipo más allá de +10 |
+| **Aspectos Cosméticos** | Diseños visuales para la armadura | Demostrar destreza en la caza |
+
+<Callout type="success" title="Objetivo del juego tardío">
+Concéntrate primero en obtener el conjunto de armadura "Ancestral". Proporciona la mayor reducción de daño contra todos los tipos de jefes, lo que hace que tus futuras rutas de farmeo sean significativamente más seguras.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Cómo encuentro a los jefes de Dino Hunters más fuertes?",
+    answer: "Los jefes más fuertes suelen encontrarse en las zonas del juego tardío, como el Cráter Volcánico y la Selva Profunda. Busca iconos rojos grandes en tu mapa o consulta la pestaña 'Legendario' en tu guía de caza para conocer las ubicaciones de aparición específicas."
+  },
+  {
+    question: "¿Puedo derrotar en solitario a los jefes legendarios en Dino Hunters?",
+    answer: "Aunque es posible con un equipamiento muy mejorado y un equipo de dinosaurios al nivel máximo, se recomienda encarecidamente agruparse con al menos otros dos jugadores. El trabajo en equipo te permite gestionar la atención (aggro) del jefe de manera más eficaz y aumenta tu DPS total."
+  },
+  {
+    question: "¿Qué debo hacer si un jefe se enfurece y tengo poca salud?",
+    answer: "Retírate de inmediato y utiliza el entorno para cubrirte. Cambia a un dinosaurio de alta movilidad y usa botiquines de salud. Espera a que expire el temporizador de enfado o a que el jefe realice un movimiento de recuperación lenta antes de volver a entrar al combate."
+  },
+  {
+    question: "¿Los botines de los jefes escalan con mi nivel?",
+    answer: "No, el botín de los jefes está determinado por el rango y la rareza del jefe. Sin embargo, los jugadores de mayor nivel pueden derrotar a los jefes más rápido, lo que permite realizar rutas de farmeo más frecuentes y aumenta la probabilidad de obtener diseños raros con el tiempo."
+  }
+]} />
+
+</Section>

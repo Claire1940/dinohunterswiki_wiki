@@ -10,7 +10,157 @@
       "twitterDescription": "Dino Hunters Wiki provides guides for dinosaur hunting, weapons, maps, upgrades, codes and progression tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "dinosaurs": "Dinosaurs",
+    "weapons": "Weapons",
+    "progression": "Progression",
+    "downloads": "Downloads",
+    "mobile": "Mobile"
+  },
+  "pages": {
+    "codes": {
+      "title": "Dino Hunters Codes",
+      "description": "Latest working Dino Hunters codes for free coins, boosts, and reward items. Redeem active codes to speed up your dinosaur hunting adventure.",
+      "metaTitle": "Dino Hunters Codes - Free Coins & Rewards (Daily Updated)",
+      "metaDescription": "Redeem the latest working Dino Hunters codes for free coins, boosts, and items. Updated daily with verified codes for faster dinosaur hunting progression.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What Are Dino Hunters Codes?",
+      "whatIsDescription": "Dino Hunters codes are free redeem codes released by the developers that grant bonus coins, boosts, and helpful items. New codes drop during game updates and special events, giving every player extra resources for hunting dinosaurs, collecting creatures, and upgrading weapons.",
+      "why": "Why Redeem Codes?",
+      "whySteps": {
+        "step1Title": "Free Coins & Currency",
+        "step1Description": "Codes grant coins and currency you can spend on new dinosaurs, weapons, and upgrades without spending hours grinding for resources.",
+        "step2Title": "Faster Progression",
+        "step2Description": "Boost codes speed up hunting, capturing, and resource gathering so you advance through the game far more quickly.",
+        "step3Title": "Exclusive Event Rewards",
+        "step3Description": "Limited-time event codes unlock special items and bonuses tied to seasonal Dino Hunters updates."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Dino Hunters Guides",
+      "description": "Complete Dino Hunters guides covering beginner strategy, hunting mechanics, boss fights, leveling, money making, and advanced gameplay tips.",
+      "metaTitle": "Dino Hunters Guides - Beginner, Boss & Progression Tips",
+      "metaDescription": "Master Dino Hunters with full guides on beginner strategy, hunting mechanics, boss battles, leveling fast, and earning money to dominate the game.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What Are Dino Hunters Guides?",
+      "whatIsDescription": "Dino Hunters guides break down every core system, from first steps and hunting basics to advanced boss strategies and money-making routes. They help players understand the mechanics and progress efficiently through the dinosaur hunting adventure.",
+      "why": "Why Read the Guides?",
+      "whySteps": {
+        "step1Title": "Learn the Hunting Loop",
+        "step1Description": "Guides explain how to find, hunt, and capture dinosaurs so you build a strong, balanced collection right from the start of your adventure.",
+        "step2Title": "Beat Bosses & Challenges",
+        "step2Description": "Detailed boss and challenge walkthroughs show you how to take down the toughest dinosaurs with the right team and gear.",
+        "step3Title": "Level & Earn Faster",
+        "step3Description": "Leveling and money-making guides help you grow your team and resources without wasting time on inefficient routes."
+      },
+      "featured": "Featured Guides",
+      "all": "All Guides"
+    },
+    "dinosaurs": {
+      "title": "Dino Hunters Dinosaurs",
+      "description": "Complete Dino Hunters dinosaur list with stats, rarity, spawn locations, and the best dinosaurs to hunt, collect, and upgrade.",
+      "metaTitle": "Dino Hunters Dinosaurs - List, Stats & Best Picks",
+      "metaDescription": "Browse every Dino Hunters dinosaur with stats, rarity, and spawn locations. Discover the best dinosaurs to hunt, collect, and upgrade for your team.",
+      "categoryLabel": "DINOSAURS",
+      "whatIs": "What Are Dino Hunters Dinosaurs?",
+      "whatIsDescription": "Dinosaurs are the core of Dino Hunters. Each creature has unique stats, rarity, and spawn locations across the map. Collecting and upgrading stronger dinosaurs is the key to beating tougher hunts and powerful boss encounters.",
+      "why": "Why Study Dinosaurs?",
+      "whySteps": {
+        "step1Title": "Build a Stronger Team",
+        "step1Description": "Knowing each dinosaur's stats and rarity helps you choose the right creatures to capture, upgrade, and add to your hunting team.",
+        "step2Title": "Hunt Rare & Legendary",
+        "step2Description": "Spawn and rarity info points you to the strongest dinosaurs so you can target the most valuable catches across the map.",
+        "step3Title": "Upgrade Smarter",
+        "step3Description": "Knowing which dinosaurs are worth investing in saves upgrade materials and maximizes your team's long-term power."
+      },
+      "featured": "Featured Dinosaurs",
+      "all": "All Dinosaurs"
+    },
+    "weapons": {
+      "title": "Dino Hunters Weapons",
+      "description": "Complete Dino Hunters weapon and hunting gear list with stats, unlock requirements, and the best weapons for every dinosaur hunt.",
+      "metaTitle": "Dino Hunters Weapons - Best Guns & Hunting Gear",
+      "metaDescription": "Find the best Dino Hunters weapons and hunting gear. Compare guns, unlock requirements, and stats to dominate every dinosaur hunt and boss fight.",
+      "categoryLabel": "WEAPONS",
+      "whatIs": "What Are Dino Hunters Weapons?",
+      "whatIsDescription": "Weapons and hunting gear determine how effectively you take down dinosaurs. Each weapon has unique damage, range, and unlock conditions, and upgrading the right gear is essential for tackling stronger dinosaurs and challenging bosses.",
+      "why": "Why Upgrade Weapons?",
+      "whySteps": {
+        "step1Title": "Hunt Stronger Dinosaurs",
+        "step1Description": "Upgraded weapons deal more damage, letting you take down rare and legendary dinosaurs that weaker gear simply cannot handle.",
+        "step2Title": "Gear for Boss Fights",
+        "step2Description": "Match the right weapons and gear to each boss encounter to deal maximum damage and survive the fight.",
+        "step3Title": "Maximize Damage Output",
+        "step3Description": "Upgrade paths and stat comparisons help you squeeze the most damage out of every weapon you craft."
+      },
+      "featured": "Featured Weapons",
+      "all": "All Weapons"
+    },
+    "progression": {
+      "title": "Dino Hunters Progression",
+      "description": "Dino Hunters progression guides on farming, upgrades, rewards, eggs, and secrets to level up fast and build the strongest hunting team.",
+      "metaTitle": "Dino Hunters Progression - Farming, Upgrades & Rewards",
+      "metaDescription": "Level up fast in Dino Hunters with progression guides on farming, upgrades, rewards, eggs, and hidden secrets for maximum growth and power.",
+      "categoryLabel": "PROGRESSION",
+      "whatIs": "What Is Dino Hunters Progression?",
+      "whatIsDescription": "Progression covers everything that grows your power: farming resources, upgrading dinosaurs and weapons, hatching eggs, and unlocking rewards. A smart progression plan helps you advance steadily through the game without wasting materials.",
+      "why": "Why Plan Progression?",
+      "whySteps": {
+        "step1Title": "Farm Resources Efficiently",
+        "step1Description": "Smart farming routes give you the coins, materials, and upgrade items needed to power up your dinosaurs and weapons much faster.",
+        "step2Title": "Hatch & Upgrade Eggs",
+        "step2Description": "Egg and upgrade guides show which creatures to raise and invest in for the biggest power gains over time.",
+        "step3Title": "Unlock Hidden Rewards",
+        "step3Description": "Secret and reward guides reveal easy-to-miss bonuses that accelerate your progression for free."
+      },
+      "featured": "Featured Progression",
+      "all": "All Progression"
+    },
+    "downloads": {
+      "title": "Dino Hunters Download",
+      "description": "How to download and play Dino Hunters on every platform, plus the latest release date, version, and update information.",
+      "metaTitle": "Dino Hunters Download - Play on PC, Mobile & Console",
+      "metaDescription": "Learn how to download and play Dino Hunters on every supported platform, with the latest release date, version, and update details.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "How to Download Dino Hunters?",
+      "whatIsDescription": "Dino Hunters is available on multiple platforms. These guides explain exactly where to download the game, what each platform offers, and how to start playing Dino Hunters on your preferred device in minutes.",
+      "why": "Why Check Download Info?",
+      "whySteps": {
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare supported platforms and choose the best way to play Dino Hunters, whether on PC, mobile, or other devices.",
+        "step2Title": "Stay Updated",
+        "step2Description": "Release date and version info keep you on the latest build with the newest dinosaurs, weapons, and features.",
+        "step3Title": "Start Playing Fast",
+        "step3Description": "Step-by-step download instructions get you into Dino Hunters quickly without any setup confusion."
+      },
+      "featured": "Featured Downloads",
+      "all": "All Downloads"
+    },
+    "mobile": {
+      "title": "Dino Hunters Mobile",
+      "description": "Dino Hunters mobile guides for Android and iOS, including controls, performance tips, and the best mobile gameplay settings.",
+      "metaTitle": "Dino Hunters Mobile - Android & iOS Guide",
+      "metaDescription": "Play Dino Hunters on Android and iOS with mobile guides covering controls, performance optimization, settings, and the best mobile hunting tips.",
+      "categoryLabel": "MOBILE",
+      "whatIs": "Is Dino Hunters on Mobile?",
+      "whatIsDescription": "Dino Hunters can be played on mobile devices. These guides cover mobile controls, performance optimization, and recommended settings to help you hunt dinosaurs smoothly on Android and iOS wherever you are.",
+      "why": "Why Play on Mobile?",
+      "whySteps": {
+        "step1Title": "Play Anywhere",
+        "step1Description": "Mobile lets you jump into Dino Hunters and keep hunting dinosaurs on the go, without being tied to a desktop or console setup.",
+        "step2Title": "Optimize Performance",
+        "step2Description": "Performance and settings guides help Dino Hunters run smoothly on your phone with minimal lag during hunts.",
+        "step3Title": "Master Mobile Controls",
+        "step3Description": "Control tips teach you to hunt, aim, and capture dinosaurs accurately using touchscreen inputs."
+      },
+      "featured": "Featured Mobile",
+      "all": "All Mobile"
+    }
+  },
   "common": {
     "home": "Home",
     "more": "More",

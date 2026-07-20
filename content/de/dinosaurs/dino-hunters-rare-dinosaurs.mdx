@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Seltene Dinosaurier in Dino Hunters: Fundorte & Fang-Leitfaden",
+  description: "Erfahren Sie, wie Sie seltene Dinosaurier in Dino Hunters finden, fangen und verbessern. Meistern Sie Biom-Spawn-Raten, Tracking-Methoden und Strategien zum Teambuilding.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Rare+Dinosaurs+Guide",
+  date: "2026-07-20",
+  author: "dino hunters Wiki-Team",
+  keywords: "Dino Hunters, seltene Dinosaurier, Fundorte, Fang-Anleitung, Biome, Upgrades"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Seltene Dinosaurier**: Das Aufspüren von **seltenen Dinosauriern in Dino Hunters** erfordert das Verständnis spezifischer Biom-Spawns und den Einsatz fortschrittlicher Fallen-Werkzeuge.
+- **Biom-Spawning**: Legendäre und epische Stufen spawnen hauptsächlich in Zonen mit hoher Gefahr wie dem Vulkankrater und den Tiefen Höhlen.
+- **Fangstrategie**: Schwächen Sie Ziele mit Elementarwaffen, bevor Sie hochwertige Fallen einsetzen, um die Erfolgsrate zu maximieren.
+- **Ressourcenmanagement**: Priorisieren Sie die Verbesserung eines einzelnen S-Tier-Teams, anstatt seltene Ressourcen auf mehrere Kreaturen niedriger Stufen zu verteilen.
+</Callout>
+
+<Section icon={Sparkles} title="Seltene Dinosaurier in Dino Hunters: Seltenheitsstufen & Klassifizierungen">
+
+Das Verständnis der Seltenheitsstruktur ist der erste Schritt, um ein Elite-Jäger zu werden. In diesem Spiel werden Dinosaurier in fünf verschiedene Seltenheitsstufen eingeteilt, die jeweils ihre Basiswerte, maximalen Stufenbegrenzungen und einzigartigen Fähigkeitsplätze definieren. Das Finden und Sichern von **seltenen Dinosauriern in Dino Hunters** ist für den Fortschritt im späteren Spielverlauf unerlässlich, da Kreaturen niedrigerer Stufen bei Jagden auf hohem Niveau schnell an Kampfkraft verlieren.
+
+Die Seltenheit eines Dinosauriers beeinflusst direkt sein Skalierungspotenzial. Während ein gewöhnlicher Dinosaurier mit passabler Basisgesundheit starten mag, ist sein Stat-Wachstum pro Level deutlich geringer als das eines epischen oder legendären Gegenstücks. Legendäre Dinosaurier besitzen zudem passive Synergie-Fähigkeiten, die die Leistung Ihres gesamten Jagd-Teams steigern.
+
+| Seltenheitsstufe | Spawn-Chance | Fang-Schwierigkeit | Stärke-Bewertung |
+|---|---|---|---|
+| **Legendär** | < 1% | Sehr hoch | ★★★★★ |
+| **Episch** | 1% - 5% | Hoch | ★★★★ |
+| **Selten** | 5% - 15% | Mittel | ★★★ |
+| **Ungewöhnlich** | 15% - 40% | Niedrig | ★★ |
+| **Gewöhnlich** | > 40% | Sehr niedrig | ★ |
+
+<Callout type="tip" title="Profi-Tipp">
+Geben Sie zu Beginn keine wertvollen Upgrade-Ressourcen für gewöhnliche oder ungewöhnliche Dinosaurier aus. Sparen Sie Ihre Materialien für seltene und epische Ziele auf, die eine viel höhere Rendite bieten, wenn Sie in den Mid-Game-Content übergehen.
+</Callout>
+
+Jede Seltenheitsstufe führt zudem einzigartige visuelle Indikatoren ein. Legendäre Dinosaurier weisen oft markante Hautmuster, biolumineszierende Markierungen oder größere physische Modelle auf als ihre gewöhnlichen Artgenossen. Achten Sie bei der Erkundung der Wildnis auf diese visuellen Anomalien, da sie der einfachste Weg sind, hochwertige Ziele aus der Ferne zu identifizieren.
+
+</Section>
+
+<Section icon={Map} title="Fundorte & Biom-Tracking">
+
+Dinosaurier spawnen nicht zufällig über die Karte verteilt. Das Spiel verfügt über ein strukturiertes Biom-System, bei dem bestimmte Arten an Umweltzonen gebunden sind. Um die flüchtigsten Kreaturen zu jagen, müssen Sie gefährliche Gebiete durchqueren und sich an regionale Wettermuster anpassen, die das Spawn-Verhalten beeinflussen.
+
+Die folgende Tabelle skizziert die primären Biome, die darin vorkommenden hochstufigen Dinosaurier und die empfohlene Ausrüstung, die erforderlich ist, um die Umweltgefahren der jeweiligen Zone zu überleben.
+
+| Biom-Zone | Seltene Spawns | Umweltgefahr | Empfohlene Waffe |
+|---|---|---|---|
+| **Dschungel-Baldachin** | Spinosaurus, Raptor Prime | Dichter Nebel | Recurvebogen |
+| **Vulkankrater** | Tyrannosaurus Rex, Pyrosaur | Extreme Hitze | Kryo-Gewehr |
+| **Gletschertal** | Mammut, Frost-Raptor | Eiskalte Kälte | Plasma-Repeater |
+| **Tiefe Höhlen** | Carnotaurus, Shadow Stalker | Geringe Sicht | Schwere Schrotflinte |
+
+<Callout type="warning" title="Gefahrenwarnung">
+Das Betreten des Vulkankraters oder des Gletschertals ohne angemessene Umweltschutzausrüstung wird Ihre Ausdauer und Gesundheit schnell erschöpfen, was einen erfolgreichen Fang auf hoher Stufe fast unmöglich macht.
+</Callout>
+
+Um diese seltenen Kreaturen effizient aufzuspüren, nutzen erfolgreiche Jäger eine Kombination aus visuellen, auditiven und taktischen Methoden. Sich auf pures Glück zu verlassen, führt zu stundenlanger vergeblicher Mühe, während strukturiertes Tracking konsistente Begegnungen garantiert.
+
+<CardGrid cols={3}>
+  <Card title="Visuelles Tracking">
+    Achten Sie auf zerbrochenes Laub, große Fußabdrücke und aufgewühlte Erdpfade. Hochstufige Dinosaurier hinterlassen größere, deutlichere Spuren, die unter taktischen Scannern leicht leuchten.
+  </Card>
+  <Card title="Auditive Hinweise">
+    Hören Sie auf einzigartige Lautäußerungen. Legendäre Arten haben markante, tiefe Brüller, die durch das Biom hallen und ihre allgemeine Richtung und Entfernung anzeigen.
+  </Card>
+  <Card title="Ködersysteme">
+    Setzen Sie spezialisierte Pheromonköder ein, die zur Ernährung Ihres Ziels passen. Fleischfresserköder locken aggressive Raubtiere an, während Pflanzenfresserköder friedliche Riesen anlocken.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Fangmechanik & Ausrüstungs-Setup">
+
+Das Einfangen eines seltenen Dinosauriers ist ein mehrstufiger Prozess, der Geduld, Präzision und die richtige Ausrüstung erfordert. Der Versuch, ein hochstufiges Ziel bei voller Gesundheit oder mit Basisausrüstung zu fangen, wird fast sicher dazu führen, dass die Falle versagt und der Dinosaurier entkommt oder feindselig wird.
+
+Der Fangprozess ist in vier verschiedene Phasen unterteilt. Das Befolgen dieses Fortschrittspfads gewährleistet die höchstmögliche Erfolgsrate und minimiert gleichzeitig Schäden an Ihrer Jagdausrüstung.
+
+<Steps>
+  <Step num="1" title="Lokalisieren und Isolieren">
+    Finden Sie Ihr Ziel mithilfe der Biom-Tracking-Methoden. Schalten Sie alle umliegenden kleineren Raubtiere aus, um zu verhindern, dass sie den Fangprozess stören oder Ihre Fallen beschädigen.
+  </Step>
+  <Step num="2" title="Das Ziel schwächen">
+    Reduzieren Sie die Gesundheit des Dinosauriers sicher. Nutzen Sie Fernkampfwaffen, um seine KP schrittweise zu senken, bis er in einen hinkenden oder erschöpften Zustand übergeht. Vermeiden Sie hochexplosive Waffen, die die Kreatur versehentlich besiegen könnten.
+  </Step>
+  <Step num="3" title="Die Falle aufstellen">
+    Platzieren Sie eine hochwertige Falle direkt im Pfad des Dinosauriers. Locken Sie die geschwächte Kreatur mithilfe von Ködern oder indem Sie sich selbst als Ablenkung positionieren in den Auslösebereich der Falle.
+  </Step>
+  <Step num="4" title="Den Fang sichern">
+    Sobald der Dinosaurier immobilisiert ist, nähern Sie sich ihm vorsichtig und verwenden Sie Ihr Fanggerät, um den Prozess abzuschließen. Behalten Sie den Fortschrittsbalken im Auge und halten Sie sekundäre Betäubungsnetze bereit, falls das Ziel versucht, auszubrechen.
+  </Step>
+</Steps>
+
+Die Wahl Ihrer Fangausrüstung ist genauso wichtig wie die Ausführung der Schritte. Verschiedene Fallen bieten je nach Größe und Stärke des Ziels unterschiedliche Erfolgsstufen.
+
+| Ausrüstung | Erfolgsrate | Ressourcenkosten | Aufladezeit |
+|---|---|---|---|
+| **Einfache Netzkanone** | Niedrig | Sehr niedrig | Schnell |
+| **Verstärkte Stahlfalle** | Mittel | Mittel | Mittel |
+| **Fortschr. Betäubungsharpune** | Hoch | Hoch | Langsam |
+| **Quanten-Stasis-Feld** | Sehr hoch | Extrem hoch | Sehr langsam |
+
+<Callout type="success" title="Erfolgsfaktor">
+Das Upgrade der Batteriekapazität und Nachladegeschwindigkeit Ihres Fanggeräts im Haupt-Hub wird die Zeit, die zum Sichern eines Ziels benötigt wird, erheblich verkürzen und das Risiko von Störungen durch andere Spieler verringern.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Verbesserung & Entwicklung seltener Dinosaurier">
+
+Einmal gesichert, müssen Ihre seltenen Dinosaurier richtig trainiert und verbessert werden, um ihr wahres Kampfpotenzial freizuschalten. Das Fortschrittssystem ermöglicht es Ihnen, Ihre Kreaturen aufzuleveln, einzigartige aktive Fähigkeiten freizuschalten und sie schließlich in mächtigere Formen zu entwickeln.
+
+Wenn Sie es versäumen, Ihr Team zu verbessern, werden Sie bei Kämpfen gegen Late-Game-Bosse und hochstufige Jagdherausforderungen unterlegen sein. Konzentrieren Sie Ihre Ressourcen effizient, um ein ausgewogenes, schlagkräftiges Team aufzubauen.
+
+<Checklist
+  id="upgrade-progression"
+  title="Meilensteine der Dinosaurier-Entwicklung:"
+  items={[
+    "Erreichen Sie die maximale Basisstufe Ihres primären seltenen Dinosauriers",
+    "Schalten Sie alle drei passiven Synergie-Fähigkeitsplätze frei",
+    "Sammeln Sie die erforderlichen Evolutionskatalysatoren von Biom-Bossen",
+    "Entwickeln Sie Ihre Kreatur zur nächsten Evolutionsstufe",
+    "Rüsten Sie hochwertige Panzerplatten und taktische Sattelausrüstung aus"
+  ]}
+/>
+
+Upgrades erfordern eine Vielzahl von Ressourcen, die Sie während Ihrer Abenteuer sammeln. Ein sorgfältiges Management dieser Ressourcen verhindert Engpässe, die Ihren Fortschritt aufhalten können.
+
+| Upgrade-Stufe | Benötigte Ressource | Stärkesprung | Prioritätsbewertung |
+|---|---|---|---|
+| **Leveling 1-20** | Einfaches Dino-Futter | Moderat | ★★★★★ |
+| **Fähigkeits-Freischaltung** | Mutationskristalle | Hoch | ★★★★ |
+| **Evolution** | Primär-Essenz | Massiv | ★★★★★ |
+| **Ausrüstungsanpassung** | Titanschrott | Hoch | ★★★ |
+
+<Callout type="info" title="Ressourcen-Tipp">
+Priorisieren Sie die Ausgabe Ihrer Primär-Essenz zuerst für S-Tier Legendäre Dinosaurier. Die Entwicklung eines epischen Dinosauriers ist nützlich, aber der rohe Stärkesprung eines entwickelten legendären Tieres ist in hochstufigen Inhalten unübertroffen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Beste Team-Zusammensetzungen für End-Game-Inhalte">
+
+Der Aufbau eines schlüssigen Teams ist entscheidend für die Bewältigung der härtesten Jagden im Spiel. Eine richtige Team-Zusammensetzung balanciert rohen Schadensausstoß, defensive Überlebensfähigkeit und Utility-Fähigkeiten wie Tracking und Heilung. Ein Team aus drei reinen Schadensverursachern mag in frühen Biomen funktionieren, wird aber in Zonen mit hoher Gefahr schnell zum Scheitern führen.
+
+Legen Sie bei der Strukturierung Ihres Teams immer einen klaren Anführer-Dinosaurier fest, der dem Rest des Teams einen passiven Synergie-Bonus gewährt.
+
+| Team-Archetyp | Primärer Anführer | Unterstützungseinheiten | Synergie-Bewertung |
+|---|---|---|---|
+| **DPS-Kraftpaket** | T-Rex | Raptor Prime, Pyrosaur | ★★★★★ |
+| **Ausgewogenes Überleben** | Spinosaurus | Frost-Raptor, Mammut | ★★★★ |
+| **Schnelles Farming** | Raptor Prime | Shadow Stalker, Carno | ★★★★ |
+
+<Callout type="success" title="Synergie-Bonus">
+Das Zusammenstellen von Dinosauriern aus derselben Biom-Zone gewährt einen zusätzlichen Bonus von 10% auf Bewegungsgeschwindigkeit und Gefahrenresistenz, was regionale Teams für gezielte Farming-Runs hochwirksam macht.
+</Callout>
+
+Experimentieren Sie mit verschiedenen Kombinationen, um einen Spielstil zu finden, der zu Ihren bevorzugten Waffen passt. Zum Beispiel passt ein auf Einfrieren fokussiertes Waffen-Loadout hervorragend zu Dinosauriern, die Bonusschaden gegen verlangsamte oder eingefrorene Ziele verursachen.
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+Um Ihnen zu helfen, das Beste aus Ihren Jagdabenteuern herauszuholen, haben wir Antworten auf die häufigsten Fragen zum Finden, Fangen und Verwalten seltener Dinosaurier zusammengestellt.
+
+<FAQ items={[
+  {
+    question: "Spawnen seltene Dinosaurier in Dino Hunters nachts häufiger?",
+    answer: "Ja, bestimmte nachtaktive Arten haben während des Nachtzyklus deutlich erhöhte Spawn-Raten, während andere nur bei bestimmten Wetterereignissen wie starkem Regen oder Sandstürmen erscheinen."
+  },
+  {
+    question: "Kann ich gefangene seltene Dinosaurier mit anderen Spielern tauschen?",
+    answer: "Der Handel wird über den sicheren Handels-Hub in der Hauptstadt unterstützt. Stellen Sie sicher, dass beide Spieler die Handelsparameter bestätigen, bevor Sie die Transaktion abschließen, um den Verlust wertvoller Kreaturen zu vermeiden."
+  },
+  {
+    question: "Was passiert, wenn ein seltener Dinosaurier mein Team während einer Jagd besiegt?",
+    answer: "Wenn Ihr Team besiegt wird, werden Sie zum nächstgelegenen Lager teleportiert. Der Ziel-Dinosaurier bleibt für begrenzte Zeit in dem Gebiet, bevor er despawnt, was Ihnen eine weitere Chance bietet, den Kampf erneut aufzunehmen."
+  },
+  {
+    question: "Wie erhöhe ich meine allgemeine Fang-Erfolgsrate?",
+    answer: "Sie können Ihre Fang-Erfolgsrate dauerhaft erhöhen, indem Sie Ihre Tracking-Fähigkeiten im Haupt-Hub-Baum verbessern und während der Fangphase hochwertige Fallen und Betäubungsharpunen einsetzen."
+  }
+]} />
+
+<Callout type="tip" title="Auf dem Laufenden bleiben">
+Behalten Sie offizielle Community-Ankündigungen und Patch-Notizen im Auge, da Fundorte, Seltenheitstabellen und Dinosaurier-Balance-Parameter in wöchentlichen Updates häufig angepasst werden.
+</Callout>
+
+</Section>
